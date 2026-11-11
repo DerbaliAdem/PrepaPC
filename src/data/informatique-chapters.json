@@ -1,0 +1,8 @@
+[
+  { "id": "info-poo", "name": "Programmation orientée objet (classes)", "subject": "informatique", "category": "Programmation" },
+  { "id": "info-procedural", "name": "Programmation procédurale — listes, dictionnaires", "subject": "informatique", "category": "Programmation" },
+  { "id": "info-files", "name": "Piles et files", "subject": "informatique", "category": "Structures de données" },
+  { "id": "info-simulation", "name": "Simulation numérique", "subject": "informatique", "category": "Algorithmique numérique" },
+  { "id": "info-images", "name": "Traitement d'images (matrices)", "subject": "informatique", "category": "Algorithmique numérique" },
+  { "id": "info-bdd", "name": "Bases de données — algèbre relationnelle, SQL", "subject": "informatique", "category": "Bases de données" }
+]

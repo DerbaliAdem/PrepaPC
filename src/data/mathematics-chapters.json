@@ -1,0 +1,11 @@
+[
+  { "id": "math-reduction", "name": "Réduction des endomorphismes", "subject": "mathematiques", "category": "Algèbre" },
+  { "id": "math-euclidien", "name": "Espaces préhilbertiens et euclidiens", "subject": "mathematiques", "category": "Algèbre" },
+  { "id": "math-denombrement", "name": "Dénombrement", "subject": "mathematiques", "category": "Algèbre" },
+  { "id": "math-evn", "name": "Espaces vectoriels normés, topologie", "subject": "mathematiques", "category": "Analyse" },
+  { "id": "math-series-fonctions", "name": "Suites et séries de fonctions", "subject": "mathematiques", "category": "Analyse" },
+  { "id": "math-series-entieres", "name": "Séries entières", "subject": "mathematiques", "category": "Analyse" },
+  { "id": "math-integrales", "name": "Intégrales généralisées et à paramètre", "subject": "mathematiques", "category": "Analyse" },
+  { "id": "math-equa-diff", "name": "Équations différentielles", "subject": "mathematiques", "category": "Analyse" },
+  { "id": "math-probas", "name": "Probabilités", "subject": "mathematiques", "category": "Probabilités" }
+]

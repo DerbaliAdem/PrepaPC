@@ -1,0 +1,13 @@
+node_modules
+dist
+.taste-skill
+
+# Original source files: the app serves its own copies from public/exams
+national exams/
+
+# Design mockups (reference only, not part of the app)
+public/design/
+
+# Local tool settings
+.claude/
+*.tsbuildinfo

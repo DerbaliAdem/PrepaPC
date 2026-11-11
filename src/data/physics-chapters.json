@@ -1,0 +1,13 @@
+[
+  { "id": "phy-electromagnetisme", "name": "Électromagnétisme — équations de Maxwell", "subject": "physique", "category": "Électromagnétisme" },
+  { "id": "phy-ondes-em", "name": "Ondes électromagnétiques (vide, conducteurs, cavités)", "subject": "physique", "category": "Électromagnétisme" },
+  { "id": "phy-optique-ondulatoire", "name": "Optique ondulatoire — interférences", "subject": "physique", "category": "Optique" },
+  { "id": "phy-polarisation", "name": "Polarisation de la lumière", "subject": "physique", "category": "Optique" },
+  { "id": "phy-diffusion", "name": "Phénomènes de diffusion (thermique, particulaire)", "subject": "physique", "category": "Phénomènes de transport" },
+  { "id": "phy-fluides", "name": "Mécanique des fluides", "subject": "physique", "category": "Mécanique" },
+  { "id": "phy-mecanique-solide", "name": "Mécanique du solide", "subject": "physique", "category": "Mécanique" },
+  { "id": "phy-ondes-mecaniques", "name": "Ondes mécaniques — cordes vibrantes", "subject": "physique", "category": "Ondes" },
+  { "id": "phy-acoustique", "name": "Ondes acoustiques dans les fluides", "subject": "physique", "category": "Ondes" },
+  { "id": "phy-thermodynamique", "name": "Thermodynamique — machines et changements d'état", "subject": "physique", "category": "Thermodynamique" },
+  { "id": "phy-electronique", "name": "Électronique — oscillateurs", "subject": "physique", "category": "Électronique" }
+]

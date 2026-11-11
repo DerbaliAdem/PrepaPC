@@ -1,0 +1,13 @@
+[
+  { "id": "chi-structure", "name": "Structure de la matière — Lewis, VSEPR", "subject": "chimie", "category": "Atomistique" },
+  { "id": "chi-cristallographie", "name": "Cristallographie", "subject": "chimie", "category": "Atomistique" },
+  { "id": "chi-corps-purs", "name": "Corps purs et changements d'état", "subject": "chimie", "category": "Thermodynamique chimique" },
+  { "id": "chi-binaire-lv", "name": "Diagrammes binaires liquide-vapeur", "subject": "chimie", "category": "Thermodynamique chimique" },
+  { "id": "chi-binaire-ls", "name": "Diagrammes binaires solide-liquide", "subject": "chimie", "category": "Thermodynamique chimique" },
+  { "id": "chi-ellingham", "name": "Diagrammes d'Ellingham", "subject": "chimie", "category": "Thermodynamique chimique" },
+  { "id": "chi-solutions", "name": "Équilibres en solution aqueuse", "subject": "chimie", "category": "Solutions aqueuses", "description": "Acido-basicité, complexation, précipitation." },
+  { "id": "chi-redox", "name": "Oxydoréduction — potentiels standard, piles", "subject": "chimie", "category": "Électrochimie" },
+  { "id": "chi-pourbaix", "name": "Diagrammes potentiel-pH (Pourbaix)", "subject": "chimie", "category": "Électrochimie" },
+  { "id": "chi-intensite-potentiel", "name": "Courbes intensité-potentiel", "subject": "chimie", "category": "Électrochimie" },
+  { "id": "chi-organique", "name": "Chimie organique", "subject": "chimie", "category": "Chimie organique" }
+]

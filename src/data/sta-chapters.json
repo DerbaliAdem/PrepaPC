@@ -1,0 +1,5 @@
+[
+  { "id": "sta-conception", "name": "Conception mécanique", "subject": "sta", "category": "Mécanique" },
+  { "id": "sta-msi", "name": "Mécanique des solides indéformables", "subject": "sta", "category": "Mécanique" },
+  { "id": "sta-automatique", "name": "Automatique", "subject": "sta", "category": "Automatique" }
+]

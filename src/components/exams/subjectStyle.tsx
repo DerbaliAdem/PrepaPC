@@ -5,7 +5,8 @@ import { SUBJECT_LABEL } from '../../types';
 const TILE: Record<Subject, { abbr: string; cls: string }> = {
   mathematiques: { abbr: 'Ma', cls: 'bg-[#E6ECFB] text-[#23306B] dark:bg-[#232a44] dark:text-[#b7c3f0]' },
   physique: { abbr: 'Ph', cls: 'bg-[#EDE7FB] text-[#4B2C8F] dark:bg-[#2d2544] dark:text-[#c9b8f2]' },
-  chimie: { abbr: 'Ch', cls: 'bg-[#E2F3EA] text-[#1C5E3B] dark:bg-[#1c3029] dark:text-[#8fd3ae]' },
+  'chimie-inorganique': { abbr: 'Ci', cls: 'bg-[#E2F3EA] text-[#1C5E3B] dark:bg-[#1c3029] dark:text-[#8fd3ae]' },
+  'chimie-organique': { abbr: 'Co', cls: 'bg-[#E4EEF7] text-[#1F4A6E] dark:bg-[#1c2a36] dark:text-[#9cc4e4]' },
   informatique: { abbr: 'In', cls: 'bg-[#FCEBDD] text-[#8A4512] dark:bg-[#3a2a1c] dark:text-[#eab68a]' },
   sta: { abbr: 'SA', cls: 'bg-[#DDF1F1] text-[#17615F] dark:bg-[#183434] dark:text-[#86d0cd]' },
   francais: { abbr: 'Fr', cls: 'bg-[#FBE6EE] text-[#8E2650] dark:bg-[#3a1f2b] dark:text-[#eba3c0]' },

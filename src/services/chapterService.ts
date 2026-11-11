@@ -27,6 +27,12 @@ export function getAppearances(): ChapterAppearance[] {
   return appearances;
 }
 
+/** First page of a range like "29–30" or "37→", for the reader link. */
+export function firstPage(pages?: string | null): number | null {
+  const n = parseInt(pages ?? '', 10);
+  return Number.isFinite(n) ? n : null;
+}
+
 export function appearancesForExam(examId: string): ChapterAppearance[] {
   return appearances.filter((a) => a.examId === examId);
 }

@@ -6,7 +6,7 @@ export function archiveStats() {
   return {
     total: exams.length,
     physique: exams.filter((e) => e.subject === 'physique').length,
-    chimie: exams.filter((e) => e.subject === 'chimie').length,
+    chimie: exams.filter((e) => e.subject.startsWith('chimie')).length,
     years: new Set(exams.map((e) => e.year)).size,
     withPdf: exams.filter((e) => e.pdfUrl).length,
   };

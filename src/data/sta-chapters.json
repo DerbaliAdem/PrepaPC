@@ -1,5 +1,32 @@
 [
-  { "id": "sta-conception", "name": "Conception mécanique", "subject": "sta", "category": "Mécanique" },
-  { "id": "sta-msi", "name": "Mécanique des solides indéformables", "subject": "sta", "category": "Mécanique" },
-  { "id": "sta-automatique", "name": "Automatique", "subject": "sta", "category": "Automatique" }
+  {
+    "id": "sta-conception",
+    "name": "Conception mécanique",
+    "subject": "sta",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "sta-inertie",
+    "name": "Centre d'inertie et matrice d'inertie",
+    "subject": "sta",
+    "category": "Mécanique des solides"
+  },
+  {
+    "id": "sta-pfd",
+    "name": "Principe fondamental de la dynamique",
+    "subject": "sta",
+    "category": "Mécanique des solides"
+  },
+  {
+    "id": "sta-energie",
+    "name": "Cinétique, puissance et énergie",
+    "subject": "sta",
+    "category": "Mécanique des solides"
+  },
+  {
+    "id": "sta-automatique",
+    "name": "Automatique : Laplace, Bode, stabilité, correction",
+    "subject": "sta",
+    "category": "Automatique"
+  }
 ]

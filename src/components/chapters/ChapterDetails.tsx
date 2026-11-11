@@ -4,9 +4,32 @@ import { X } from 'lucide-react';
 import type { Chapter } from '../../types';
 import { SUBJECT_LABEL } from '../../types';
 import { chapterHistory, yearsForSubject } from '../../utils/chapterAnalysis';
+import { firstPage } from '../../services/chapterService';
 import ChapterFrequency from './ChapterFrequency';
 import RevisionStatus from './RevisionStatus';
 import ExamActions from '../exams/ExamActions';
+import { useExamStatus } from '../../hooks/useExamStatus';
+
+/** Done / not done for one paper; shares the Fait status shown in the archive. */
+function DoneCheckbox({ examId, label }: { examId: string; label: string }) {
+  const [status, setStatus] = useExamStatus(examId);
+  const done = status === 'fait';
+  return (
+    <label className="mt-0.5 flex h-6 shrink-0 cursor-pointer items-start" title={done ? 'Fait' : 'Pas encore fait'}>
+      <input
+        type="checkbox"
+        checked={done}
+        onChange={(e) => {
+          if (e.target.checked) return setStatus('fait');
+          // Unticking by mistake would lose the mark: ask first.
+          if (window.confirm(`Retirer la marque « Fait » de ${label} ?`)) setStatus('a-faire');
+        }}
+        aria-label={`${label} : ${done ? 'fait' : 'pas encore fait'}`}
+        className="size-5 cursor-pointer accent-[var(--ok)]"
+      />
+    </label>
+  );
+}
 
 export default function ChapterDetails({ chapter, onClose }: { chapter: Chapter; onClose: () => void }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -57,14 +80,25 @@ export default function ChapterDetails({ chapter, onClose }: { chapter: Chapter;
             ) : (
               <ul className="divide-y divide-line border-y border-line">
                 {history.map(({ exam, appearance }) => (
-                  <li key={exam.id} className="py-3.5">
-                    <div className="flex items-baseline justify-between gap-3">
+                  <li key={exam.id} className="flex gap-3 py-3.5">
+                    <DoneCheckbox examId={exam.id} label={`${exam.title} ${exam.year}`} />
+                    <div className="min-w-0 flex-1">
                       <Link to={`/archives/${exam.id}`} className="text-sm font-medium text-ink hover:text-accent">
                         {exam.title} <span className="tabular">{exam.year}</span>
                       </Link>
+                      {(appearance.part || appearance.pages) && (
+                        <p className="mt-0.5 text-[13px] text-muted">
+                          {appearance.part}
+                          {appearance.pages && (
+                            <>
+                              {appearance.part ? ' · ' : ''}
+                              {firstPage(appearance.pages) ? <Link to={`/archives/${exam.id}?page=${firstPage(appearance.pages)}`} className="text-accent hover:underline">p. {appearance.pages}</Link> : <span>p. {appearance.pages}</span>}
+                            </>
+                          )}
+                        </p>
+                      )}
+                      <div className="mt-2.5"><ExamActions exam={exam} /></div>
                     </div>
-                    {appearance.questionReferences && <p className="mt-0.5 text-[13px] text-muted">{appearance.questionReferences}</p>}
-                    <div className="mt-2.5"><ExamActions exam={exam} /></div>
                   </li>
                 ))}
               </ul>

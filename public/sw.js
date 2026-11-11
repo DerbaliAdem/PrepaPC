@@ -1,10 +1,12 @@
 // Offline support: the app shell is kept up to date from the network when online;
 // built assets and exam PDFs are cached the first time they are loaded.
-const SHELL = 'prepa-shell-v1';
+const SHELL = 'prepa-shell-v2';
 const FILES = 'prepa-files-v1';
+// Works at the site root or under a subpath such as /PrepaPC/ (GitHub Pages).
+const BASE = new URL(self.registration.scope).pathname;
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(SHELL).then((c) => c.addAll(['/', '/manifest.webmanifest', '/icon-192.png'])));
+  e.waitUntil(caches.open(SHELL).then((c) => c.addAll([BASE, BASE + 'manifest.webmanifest', BASE + 'icon-192.png'])));
   self.skipWaiting();
 });
 
@@ -25,16 +27,16 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(
       fetch(req)
         .then((res) => {
-          caches.open(SHELL).then((c) => c.put('/', res.clone()));
+          caches.open(SHELL).then((c) => c.put(BASE, res.clone()));
           return res;
         })
-        .catch(() => caches.match('/')),
+        .catch(() => caches.match(BASE)),
     );
     return;
   }
 
   // Hashed assets and PDFs never change: cache first. Range requests go to the network.
-  if ((url.pathname.startsWith('/assets/') || url.pathname.startsWith('/exams/')) && !req.headers.has('range')) {
+  if ((url.pathname.startsWith(BASE + 'assets/') || url.pathname.startsWith(BASE + 'exams/')) && !req.headers.has('range')) {
     e.respondWith(
       caches.match(req).then(
         (hit) =>

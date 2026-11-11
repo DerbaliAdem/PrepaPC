@@ -1,7 +1,7 @@
-export type Subject = 'mathematiques' | 'physique' | 'chimie' | 'informatique' | 'sta' | 'francais' | 'anglais';
+export type Subject = 'mathematiques' | 'physique' | 'chimie-inorganique' | 'chimie-organique' | 'informatique' | 'sta' | 'francais' | 'anglais';
 
 /** Display order of subjects. */
-export const SUBJECTS: Subject[] = ['mathematiques', 'physique', 'chimie', 'informatique', 'sta', 'francais', 'anglais'];
+export const SUBJECTS: Subject[] = ['mathematiques', 'physique', 'chimie-inorganique', 'chimie-organique', 'informatique', 'sta', 'francais', 'anglais'];
 
 export interface Exam {
   id: string;
@@ -33,6 +33,10 @@ export interface ChapterAppearance {
   chapterId: string;
   examId: string;
   questionReferences?: string;
+  /** Part of the paper, e.g. "Problème 1, partie I". */
+  part?: string | null;
+  /** Page range in the PDF, e.g. "29–30" or "37→" (open-ended). */
+  pages?: string | null;
   verified: boolean;
 }
 
@@ -47,7 +51,8 @@ export interface RevisionProgress {
 export const SUBJECT_LABEL: Record<Subject, string> = {
   mathematiques: 'Mathématiques',
   physique: 'Physique',
-  chimie: 'Chimie',
+  'chimie-inorganique': 'Chimie inorganique',
+  'chimie-organique': 'Chimie organique',
   informatique: 'Informatique',
   sta: 'STA',  // Systèmes Techniques Automatisés
   francais: 'Français',

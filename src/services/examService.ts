@@ -1,7 +1,10 @@
 import examsData from '../data/exams.json';
 import { SUBJECTS, type Exam, type Subject } from '../types';
 
-const exams = (examsData as Exam[]).slice().sort((a, b) => b.year - a.year || SUBJECTS.indexOf(a.subject) - SUBJECTS.indexOf(b.subject) || a.id.localeCompare(b.id));
+// pdfUrl is stored from the site root ("/exams/..."); serve it under the deploy base path.
+const withBase = (u: string | null) => (u && u.startsWith('/') ? import.meta.env.BASE_URL + u.slice(1) : u);
+
+const exams = (examsData as Exam[]).map((e) => ({ ...e, pdfUrl: withBase(e.pdfUrl), correctionUrl: withBase(e.correctionUrl ?? null) })).slice().sort((a, b) => b.year - a.year || SUBJECTS.indexOf(a.subject) - SUBJECTS.indexOf(b.subject) || a.id.localeCompare(b.id));
 
 export function getExams(): Exam[] {
   return exams;

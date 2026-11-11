@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import type { Exam } from '../../types';
-import { appearancesForExam, getChapter } from '../../services/chapterService';
+import { appearancesForExam, firstPage, getChapter } from '../../services/chapterService';
 import { StatusDot } from '../chapters/RevisionStatus';
 import { useRevisionProgress } from '../../hooks/useRevisionProgress';
 
@@ -21,7 +21,18 @@ export default function ExamChapters({ exam }: { exam: Exam }) {
               <Link to={`/chapitres?matiere=${ch.subject}&chapitre=${ch.id}`} className="text-sm font-medium text-ink hover:text-accent">
                 {ch.name}
               </Link>
-              {a.questionReferences && <p className="text-[13px] leading-snug text-muted">{a.questionReferences}</p>}
+              {(a.part || a.pages) && (
+                <p className="text-[13px] leading-snug text-muted">
+                  {a.part}
+                  {a.pages && (
+                    <>
+                      {a.part ? ' · ' : ''}
+                      {firstPage(a.pages) ? <Link to={`/archives/${exam.id}?page=${firstPage(a.pages)}`} className="text-accent underline-offset-2 hover:underline">p. {a.pages}</Link> : <span>p. {a.pages}</span>}
+                    </>
+                  )}
+                </p>
+              )}
+              {a.questionReferences && !a.part && <p className="text-[13px] leading-snug text-muted">{a.questionReferences}</p>}
             </div>
           </li>
         );

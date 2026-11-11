@@ -11,11 +11,11 @@ const PDF_OPTIONS = { disableRange: true, disableStream: true };
 
 const ZOOMS =[0.5, 0.75, 1, 1.25, 1.5, 2, 2.5];
 
-export default function PDFViewer({ url, onPages }: { url: string; onPages?: (n: number) => void }) {
+export default function PDFViewer({ url, onPages, initialPage = 1 }: { url: string; onPages?: (n: number) => void; initialPage?: number }) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const [numPages, setNumPages] = useState(0);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(initialPage);
   const [zoomIdx, setZoomIdx] = useState(2);
   const [width, setWidth] = useState(800);
   const [error, setError] = useState<string | null>(null);

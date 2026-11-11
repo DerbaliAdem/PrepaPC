@@ -1,80 +1,2338 @@
 [
-  {"examId": "2020-physique", "chapterId": "phy-ondes-em", "questionReferences": "Problème 1, I — Onde électromagnétique dans une cavité vide", "verified": true},
-  {"examId": "2020-physique", "chapterId": "phy-electromagnetisme", "questionReferences": "Problème 1, I-1 — Équations de Maxwell dans la cavité", "verified": true},
-  {"examId": "2020-physique", "chapterId": "phy-electronique", "questionReferences": "Problème 1 — Milieu amplificateur et son équivalent électronique", "verified": true},
-  {"examId": "2020-physique", "chapterId": "phy-fluides", "questionReferences": "Problème 2, I — Écoulement d'air, nombre de Reynolds, traînée", "verified": true},
-  {"examId": "2020-physique", "chapterId": "phy-ondes-mecaniques", "questionReferences": "Problème 2, II — Vibration transversale, corde, modes propres", "verified": true},
-  {"examId": "2021-physique", "chapterId": "phy-acoustique", "questionReferences": "Problème 1, Partie I — Onde acoustique dans un fluide (échographie Doppler)", "verified": true},
-  {"examId": "2021-physique", "chapterId": "phy-fluides", "questionReferences": "Problème 1, Partie I — Description d'Euler, dérivée particulaire", "verified": true},
-  {"examId": "2021-physique", "chapterId": "phy-ondes-em", "questionReferences": "Problème 2, III — OPPM traversant un milieu d'indice n", "verified": true},
-  {"examId": "2021-physique", "chapterId": "phy-polarisation", "questionReferences": "Problème 2, IV–V — Lames à retard, polarisation rotatoire", "verified": true},
-  {"examId": "2022-physique", "chapterId": "phy-ondes-em", "questionReferences": "Problème 1, Partie I — Ondes électromagnétiques dans les conducteurs", "verified": true},
-  {"examId": "2022-physique", "chapterId": "phy-electromagnetisme", "questionReferences": "Problème 1, Partie I — Conducteurs, équations de Maxwell", "verified": true},
-  {"examId": "2022-physique", "chapterId": "phy-diffusion", "questionReferences": "Problème 1, Parties II–III — Diffusion thermique dans le sol, diffusion dans les fluides", "verified": true},
-  {"examId": "2022-physique", "chapterId": "phy-fluides", "questionReferences": "Problème 1, Partie III — Diffusion dans les fluides en écoulement", "verified": true},
-  {"examId": "2022-physique", "chapterId": "phy-optique-ondulatoire", "questionReferences": "Problème 2 — Lame à faces parallèles, interféromètre de Fabry-Pérot", "verified": true},
-  {"examId": "2023-physique", "chapterId": "phy-ondes-em", "questionReferences": "Première partie — Ondes électromagnétiques dans le vide, Lidar", "verified": true},
-  {"examId": "2023-physique", "chapterId": "phy-acoustique", "questionReferences": "Deuxième partie — Ondes acoustiques dans les milieux marins (Q12–Q27)", "verified": true},
-  {"examId": "2023-physique", "chapterId": "phy-fluides", "questionReferences": "Deuxième partie — Écoulement irrotationnel, viscosité (Q16, Q27)", "verified": true},
-  {"examId": "2023-physique", "chapterId": "phy-thermodynamique", "questionReferences": "Troisième partie — Système de réfrigération à l'ammoniac", "verified": true},
-  {"examId": "2020-chimie", "chapterId": "chi-cristallographie", "questionReferences": "Problème : cristallographie", "verified": true},
-  {"examId": "2020-chimie", "chapterId": "chi-corps-purs", "questionReferences": "Diagrammes binaires, Partie 1 — Corps purs", "verified": true},
-  {"examId": "2020-chimie", "chapterId": "chi-binaire-lv", "questionReferences": "Parties 2–3 — Binaire cyclohexane / acétate d'éthyle, diagrammes isotherme et isobare", "verified": true},
-  {"examId": "2020-chimie", "chapterId": "chi-pourbaix", "questionReferences": "Problème : diagramme de Pourbaix du baryum", "verified": true},
-  {"examId": "2021-chimie", "chapterId": "chi-cristallographie", "questionReferences": "Problème : cristallographie", "verified": true},
-  {"examId": "2021-chimie", "chapterId": "chi-binaire-ls", "questionReferences": "Problème : diagramme d'équilibre liquide-solide (hydrazine – eau)", "verified": true},
-  {"examId": "2021-chimie", "chapterId": "chi-solutions", "questionReferences": "I — Constantes d'équilibre des réactions acido-basiques", "verified": true},
-  {"examId": "2021-chimie", "chapterId": "chi-redox", "questionReferences": "II — Détermination des potentiels standard d'oxydoréduction", "verified": true},
-  {"examId": "2021-chimie", "chapterId": "chi-pourbaix", "questionReferences": "III — Diagramme potentiel-pH de l'azote", "verified": true},
-  {"examId": "2022-chimie", "chapterId": "chi-corps-purs", "questionReferences": "Problème 1 — Magnésium pur, analyse thermique, diagramme p = f(T)", "verified": true},
-  {"examId": "2022-chimie", "chapterId": "chi-binaire-ls", "questionReferences": "Problème : diagramme solide-liquide Zn–Mg", "verified": true},
-  {"examId": "2022-chimie", "chapterId": "chi-cristallographie", "questionReferences": "Problème : cristallographie (Mg4Zn8)", "verified": true},
-  {"examId": "2022-chimie", "chapterId": "chi-redox", "questionReferences": "Problème pile — Force électromotrice, équation-bilan", "verified": true},
-  {"examId": "2022-chimie", "chapterId": "chi-intensite-potentiel", "questionReferences": "Problème pile — Courbes intensité-potentiel (questions 6 et 9)", "verified": true},
-  {"examId": "2023-chimie-inorganique", "chapterId": "chi-structure", "questionReferences": "Problème I — Schéma de Lewis, VSEPR (Q4–Q8)", "verified": true},
-  {"examId": "2023-chimie-inorganique", "chapterId": "chi-cristallographie", "questionReferences": "Problème II — Cristallographie (Cu3Se4V)", "verified": true},
-  {"examId": "2023-chimie-inorganique", "chapterId": "chi-binaire-ls", "questionReferences": "Problème III — Diagramme binaire liquide-solide Si–As", "verified": true},
-  {"examId": "2023-chimie-inorganique", "chapterId": "chi-pourbaix", "questionReferences": "Problème IV — Diagramme de Pourbaix de l'arsenic", "verified": true},
-  {"examId": "2023-chimie-organique", "chapterId": "chi-organique", "questionReferences": "Trois problèmes — diènes, Diels-Alder, stéréochimie (Cram)", "verified": true},
-  {"examId": "2020-mathematiques", "chapterId": "math-probas", "questionReferences": "Exercice — Variable aléatoire discrète", "verified": true},
-  {"examId": "2020-mathematiques", "chapterId": "math-integrales", "questionReferences": "Problème 1 — Fonctions intégrables sur [0, +∞[", "verified": true},
-  {"examId": "2020-mathematiques", "chapterId": "math-euclidien", "questionReferences": "Problème 2 — Norme de la trace, groupe SOₙ(ℝ)", "verified": true},
-  {"examId": "2020-mathematiques", "chapterId": "math-evn", "questionReferences": "Problème 2, I — Fermé de Mₙ(ℝ), matrice de norme minimale", "verified": true},
-  {"examId": "2021-mathematiques", "chapterId": "math-series-fonctions", "questionReferences": "Problème I, Partie 1 — Convergence normale, fonction ζ", "verified": true},
-  {"examId": "2021-mathematiques", "chapterId": "math-integrales", "questionReferences": "Problème I — Intégrales et comparaison série-intégrale", "verified": true},
-  {"examId": "2021-mathematiques", "chapterId": "math-reduction", "questionReferences": "Problème II — Diagonalisation, matrice de Vandermonde", "verified": true},
-  {"examId": "2022-mathematiques", "chapterId": "math-integrales", "questionReferences": "Problème 1, Partie I — Fonction Γ, intégrale de Gauss", "verified": true},
-  {"examId": "2022-mathematiques", "chapterId": "math-equa-diff", "questionReferences": "Problème 1, Partie II — Équation de Bessel", "verified": true},
-  {"examId": "2022-mathematiques", "chapterId": "math-series-entieres", "questionReferences": "Problème 1, Partie II — Solutions développables en série entière", "verified": true},
-  {"examId": "2022-mathematiques", "chapterId": "math-denombrement", "questionReferences": "Problème 2, Partie I — Partitions d'un ensemble, nombres de Bell", "verified": true},
-  {"examId": "2023-mathematiques", "chapterId": "math-euclidien", "questionReferences": "Problème I — Matrice de Gram, projection orthogonale (Q.1–Q.22)", "verified": true},
-  {"examId": "2023-mathematiques", "chapterId": "math-reduction", "questionReferences": "Problème I — Spectre, matrices de Hilbert (Q.18, Q.25)", "verified": true},
-  {"examId": "2023-mathematiques", "chapterId": "math-series-fonctions", "questionReferences": "Problème II, Partie A — Fonction ζ (Q.26)", "verified": true},
-  {"examId": "2023-mathematiques", "chapterId": "math-integrales", "questionReferences": "Problème II, Partie A — Intégrales Iₚ (Q.27–Q.28)", "verified": true},
-  {"examId": "2020-informatique", "chapterId": "info-simulation", "questionReferences": "Problème 1 — Équation de la chaleur", "verified": true},
-  {"examId": "2020-informatique", "chapterId": "info-poo", "questionReferences": "Problème 1, Partie 3 — Classe EqChaleur", "verified": true},
-  {"examId": "2020-informatique", "chapterId": "info-bdd", "questionReferences": "Problème 2 — SQL, requêtes Python sur la base", "verified": true},
-  {"examId": "2021-informatique", "chapterId": "info-images", "questionReferences": "Problème 1 — Segmentation d'images par partage des eaux", "verified": true},
-  {"examId": "2021-informatique", "chapterId": "info-poo", "questionReferences": "Problème 1, Partie I — Description des classes", "verified": true},
-  {"examId": "2021-informatique", "chapterId": "info-files", "questionReferences": "Problème 1, Partie I — Classe PEPS (file d'attente)", "verified": true},
-  {"examId": "2021-informatique", "chapterId": "info-bdd", "questionReferences": "Problème 2, Parties 1–2 — Algèbre relationnelle, SQL", "verified": true},
-  {"examId": "2021-informatique", "chapterId": "info-procedural", "questionReferences": "Problème 2, Partie 3 — Fonctions Python avec dictionnaire", "verified": true},
-  {"examId": "2022-informatique", "chapterId": "info-procedural", "questionReferences": "Partie I — Moteur de recherche TF-IDF en Python", "verified": true},
-  {"examId": "2022-informatique", "chapterId": "info-poo", "questionReferences": "Partie II — Classe SearchEngine", "verified": true},
-  {"examId": "2022-informatique", "chapterId": "info-bdd", "questionReferences": "Partie III — Algèbre relationnelle, SQL, sqlite3", "verified": true},
-  {"examId": "2023-informatique", "chapterId": "info-poo", "questionReferences": "Partie I — Programmation orientée objet (Q1–Q21)", "verified": true},
-  {"examId": "2023-informatique", "chapterId": "info-procedural", "questionReferences": "Partie II — Programmation procédurale (Q22–Q25)", "verified": true},
-  {"examId": "2023-informatique", "chapterId": "info-bdd", "questionReferences": "Partie III — Base de données relationnelle (Q26–Q36)", "verified": true},
-  {"examId": "2020-sta", "chapterId": "sta-conception", "questionReferences": "Partie A — Conception mécanique", "verified": true},
-  {"examId": "2020-sta", "chapterId": "sta-msi", "questionReferences": "Partie B — Mécanique des solides indéformables", "verified": true},
-  {"examId": "2020-sta", "chapterId": "sta-automatique", "questionReferences": "Partie C — Automatique", "verified": true},
-  {"examId": "2021-sta", "chapterId": "sta-conception", "questionReferences": "Partie A — Conception mécanique", "verified": true},
-  {"examId": "2021-sta", "chapterId": "sta-msi", "questionReferences": "Partie B — Mécanique des solides indéformables", "verified": true},
-  {"examId": "2021-sta", "chapterId": "sta-automatique", "questionReferences": "Partie C — Automatique", "verified": true},
-  {"examId": "2022-sta", "chapterId": "sta-conception", "questionReferences": "Partie A — Conception mécanique", "verified": true},
-  {"examId": "2022-sta", "chapterId": "sta-msi", "questionReferences": "Partie B — Mécanique des solides indéformables", "verified": true},
-  {"examId": "2022-sta", "chapterId": "sta-automatique", "questionReferences": "Partie C — Automatique", "verified": true},
-  {"examId": "2023-sta", "chapterId": "sta-conception", "questionReferences": "Partie A — Conception mécanique", "verified": true},
-  {"examId": "2023-sta", "chapterId": "sta-msi", "questionReferences": "Partie A — Mécanique des solides indéformables", "verified": true},
-  {"examId": "2023-sta", "chapterId": "sta-automatique", "questionReferences": "Partie B — Automatique", "verified": true}
+  {
+    "examId": "2020-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, I — Onde électromagnétique dans une cavité vide",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2020-physique",
+    "chapterId": "phy-electromagnetisme",
+    "questionReferences": "Problème 1, I-1 — Équations de Maxwell dans la cavité",
+    "verified": true,
+    "part": "Problème 1, I-1",
+    "pages": "1"
+  },
+  {
+    "examId": "2020-physique",
+    "chapterId": "phy-laser",
+    "questionReferences": "Problème 1 — Milieu amplificateur de lumière et son équivalent électronique (oscillateur)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Problème 2, I — Écoulement d'air, nombre de Reynolds, traînée",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-physique",
+    "chapterId": "phy-ondes-mecaniques",
+    "questionReferences": "Problème 2, II — Vibration transversale, corde, modes propres",
+    "verified": true,
+    "part": "Problème 2, partie II (corde)",
+    "pages": "6"
+  },
+  {
+    "examId": "2021-physique",
+    "chapterId": "phy-acoustique",
+    "questionReferences": "Problème 1, Partie I — Onde acoustique dans un fluide (échographie Doppler)",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2021-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Problème 1, Partie I — Description d'Euler, dérivée particulaire",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1"
+  },
+  {
+    "examId": "2021-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 2, III — OPPM traversant un milieu d'indice n",
+    "verified": true,
+    "part": "Problème 2, partie III",
+    "pages": "6"
+  },
+  {
+    "examId": "2021-physique",
+    "chapterId": "phy-polarisation",
+    "questionReferences": "Problème 2, IV–V — Lames à retard, polarisation rotatoire",
+    "verified": true,
+    "part": "Problème 2, parties IV–V",
+    "pages": "6"
+  },
+  {
+    "examId": "2022-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, Partie I — Ondes électromagnétiques dans les conducteurs",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2022-physique",
+    "chapterId": "phy-electromagnetisme",
+    "questionReferences": "Problème 1, Partie I — Conducteurs, équations de Maxwell",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2022-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Problème 1, Parties II–III — Diffusion thermique dans le sol (diffusion thermique, partie VII)",
+    "verified": true,
+    "part": "Problème 1, partie II",
+    "pages": "3"
+  },
+  {
+    "examId": "2022-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Problème 1, Partie III — Diffusion dans les fluides en écoulement",
+    "verified": true,
+    "part": "Problème 1, partie III",
+    "pages": "4"
+  },
+  {
+    "examId": "2022-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Problème 2 — Lame à faces parallèles, interféromètre de Fabry-Pérot",
+    "verified": true,
+    "part": "Problème 2, parties I–II",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2023-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Première partie — Ondes électromagnétiques dans le vide, Lidar",
+    "verified": true,
+    "part": "Partie 1 (Lidar)",
+    "pages": "9"
+  },
+  {
+    "examId": "2023-physique",
+    "chapterId": "phy-acoustique",
+    "questionReferences": "Deuxième partie — Ondes acoustiques dans les milieux marins (Q12–Q27)",
+    "verified": true,
+    "part": "Partie 2",
+    "pages": "10–14"
+  },
+  {
+    "examId": "2023-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Deuxième partie — Écoulement irrotationnel, viscosité (Q16, Q27)",
+    "verified": true,
+    "part": "Partie 2 (Q16, Q27)",
+    "pages": "10–14"
+  },
+  {
+    "examId": "2023-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Troisième partie — Système de réfrigération à l'ammoniac",
+    "verified": true,
+    "part": "Partie 3",
+    "pages": "15–18"
+  },
+  {
+    "examId": "2020-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème : cristallographie",
+    "verified": true,
+    "part": "Problème : cristallographie",
+    "pages": "29–30"
+  },
+  {
+    "examId": "2020-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Diagrammes binaires, Partie 1 — Corps purs",
+    "verified": true,
+    "part": "Problème, partie 1",
+    "pages": "31"
+  },
+  {
+    "examId": "2020-chimie",
+    "chapterId": "chi-binaires-lv",
+    "questionReferences": "Parties 2–3 — Binaire cyclohexane / acétate d'éthyle, diagrammes isotherme et isobare",
+    "verified": true,
+    "part": "Parties 2 et 3",
+    "pages": "32–36"
+  },
+  {
+    "examId": "2020-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Problème : diagramme de Pourbaix du baryum",
+    "verified": true,
+    "part": "Problème : diagramme de Pourbaix",
+    "pages": "37→"
+  },
+  {
+    "examId": "2021-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème : cristallographie",
+    "verified": true,
+    "part": "Problème : tableau périodique et liaison",
+    "pages": "41–42"
+  },
+  {
+    "examId": "2021-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Problème : diagramme d'équilibre liquide-solide (hydrazine – eau)",
+    "verified": true,
+    "part": "Problème : diagramme liquide-solide",
+    "pages": "46"
+  },
+  {
+    "examId": "2021-chimie",
+    "chapterId": "chi-acidobase",
+    "questionReferences": "I — Constantes d'équilibre des réactions acido-basiques",
+    "verified": true,
+    "part": "Électrochimie, I",
+    "pages": "47"
+  },
+  {
+    "examId": "2021-chimie",
+    "chapterId": "chi-redox",
+    "questionReferences": "II — Détermination des potentiels standard d'oxydoréduction",
+    "verified": true,
+    "part": "Électrochimie, II",
+    "pages": "47"
+  },
+  {
+    "examId": "2021-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "III — Diagramme potentiel-pH de l'azote",
+    "verified": true,
+    "part": "Électrochimie, III",
+    "pages": "47–50"
+  },
+  {
+    "examId": "2022-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Problème 1 — Magnésium pur, analyse thermique, diagramme p = f(T)",
+    "verified": true,
+    "part": "Problème : corps pur (magnésium)",
+    "pages": "6"
+  },
+  {
+    "examId": "2022-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Problème : diagramme solide-liquide Zn–Mg",
+    "verified": true,
+    "part": "Problème : diagramme Zn–Mg",
+    "pages": "8–9"
+  },
+  {
+    "examId": "2022-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème : cristallographie (Mg4Zn8)",
+    "verified": true,
+    "part": "Problème : cristallographie",
+    "pages": "10"
+  },
+  {
+    "examId": "2022-chimie",
+    "chapterId": "chi-redox",
+    "questionReferences": "Problème pile — Force électromotrice, équation-bilan",
+    "verified": true,
+    "part": "Problème : électrochimie (pile)",
+    "pages": "11"
+  },
+  {
+    "examId": "2022-chimie",
+    "chapterId": "chi-intensite-potentiel",
+    "questionReferences": "Problème pile — Courbes intensité-potentiel (questions 6 et 9)",
+    "verified": true,
+    "part": "Électrochimie, questions 6 et 9",
+    "pages": "11"
+  },
+  {
+    "examId": "2023-chimie-inorganique",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Problème I — Schéma de Lewis, VSEPR (Q4–Q8)",
+    "verified": true,
+    "part": "Problème I",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2023-chimie-inorganique",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème II — Cristallographie (Cu3Se4V)",
+    "verified": true,
+    "part": "Problème II",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2023-chimie-inorganique",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Problème III — Diagramme binaire liquide-solide Si–As",
+    "verified": true,
+    "part": "Problème III",
+    "pages": "7–11"
+  },
+  {
+    "examId": "2023-chimie-inorganique",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Problème IV — Diagramme de Pourbaix de l'arsenic",
+    "verified": true,
+    "part": "Problème IV",
+    "pages": "12→"
+  },
+  {
+    "examId": "2023-chimie-organique",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Trois problèmes — diènes, Diels-Alder, stéréochimie (Cram)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2023-chimie-organique",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Trois problèmes — diènes, Diels-Alder, stéréochimie (Cram)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-mathematiques",
+    "chapterId": "math-probas",
+    "questionReferences": "Exercice — Variable aléatoire discrète",
+    "verified": true,
+    "part": "Exercice",
+    "pages": "1–4"
+  },
+  {
+    "examId": "2020-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème 1 — Fonctions intégrables sur [0, +∞[",
+    "verified": true,
+    "part": "Problème 1",
+    "pages": "2"
+  },
+  {
+    "examId": "2020-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème 2 — Norme de la trace, groupe SOₙ(ℝ)",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "3"
+  },
+  {
+    "examId": "2020-mathematiques",
+    "chapterId": "math-evn",
+    "questionReferences": "Problème 2, I — Fermé de Mₙ(ℝ), matrice de norme minimale",
+    "verified": true,
+    "part": "Problème 2, partie I",
+    "pages": "3"
+  },
+  {
+    "examId": "2021-mathematiques",
+    "chapterId": "math-series-fonctions",
+    "questionReferences": "Problème I, Partie 1 — Convergence normale, fonction ζ",
+    "verified": true,
+    "part": "Problème I, parties 1 et 2",
+    "pages": "6–10"
+  },
+  {
+    "examId": "2021-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème I — Intégrales et comparaison série-intégrale",
+    "verified": true,
+    "part": "Problème I, partie 1",
+    "pages": "6"
+  },
+  {
+    "examId": "2021-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème II — Diagonalisation, matrice de Vandermonde",
+    "verified": true,
+    "part": "Problème II",
+    "pages": "11–13"
+  },
+  {
+    "examId": "2022-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème 1, Partie I — Fonction Γ, intégrale de Gauss",
+    "verified": true,
+    "part": "Problème 1, partie I",
+    "pages": "1"
+  },
+  {
+    "examId": "2022-mathematiques",
+    "chapterId": "math-equa-diff",
+    "questionReferences": "Problème 1, Partie II — Équation de Bessel",
+    "verified": true,
+    "part": "Problème 1, partie II",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2022-mathematiques",
+    "chapterId": "math-series-entieres",
+    "questionReferences": "Problème 1, Partie II — Solutions développables en série entière",
+    "verified": true,
+    "part": "Problème 1, partie II",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2022-mathematiques",
+    "chapterId": "math-probas",
+    "questionReferences": "Problème 2, Partie I — Partitions d'un ensemble, nombres de Bell",
+    "verified": true,
+    "part": "Problème 2, partie I (partitions)",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2023-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème I — Matrice de Gram, projection orthogonale (Q.1–Q.22)",
+    "verified": true,
+    "part": "Problème I",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2023-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème I — Spectre, matrices de Hilbert (Q.18, Q.25)",
+    "verified": true,
+    "part": "Problème I (Hilbert, Q.25)",
+    "pages": "3"
+  },
+  {
+    "examId": "2023-mathematiques",
+    "chapterId": "math-series-fonctions",
+    "questionReferences": "Problème II, Partie A — Fonction ζ (Q.26)",
+    "verified": true,
+    "part": "Problème II, partie A (ζ)",
+    "pages": "3"
+  },
+  {
+    "examId": "2023-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème II, Partie A — Intégrales Iₚ (Q.27–Q.28)",
+    "verified": true,
+    "part": "Problème II, partie A (Iₚ)",
+    "pages": "3"
+  },
+  {
+    "examId": "2020-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Problème 1 — Équation de la chaleur",
+    "verified": true,
+    "part": "Problème 1, parties 1–2",
+    "pages": "10–11"
+  },
+  {
+    "examId": "2020-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Problème 1, Partie 3 — Classe EqChaleur",
+    "verified": true,
+    "part": "Problème 1, partie 3 (classe)",
+    "pages": "12"
+  },
+  {
+    "examId": "2020-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Problème 2 — SQL, requêtes Python sur la base",
+    "verified": true,
+    "part": "Problème 2 (SQL)",
+    "pages": "14–15"
+  },
+  {
+    "examId": "2021-informatique",
+    "chapterId": "info-images",
+    "questionReferences": "Problème 1 — Segmentation d'images par partage des eaux",
+    "verified": true,
+    "part": "Problème 1, partie II",
+    "pages": "16–20"
+  },
+  {
+    "examId": "2021-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Problème 1, Partie I — Description des classes",
+    "verified": true,
+    "part": "Problème 1, partie I (classes)",
+    "pages": "13–15"
+  },
+  {
+    "examId": "2021-informatique",
+    "chapterId": "info-files",
+    "questionReferences": "Problème 1, Partie I — Classe PEPS (file d'attente)",
+    "verified": true,
+    "part": "Problème 1, partie I (classe PEPS)",
+    "pages": "13"
+  },
+  {
+    "examId": "2021-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Problème 2, Parties 1–2 — Algèbre relationnelle, SQL",
+    "verified": true,
+    "part": "Problème 2, parties 1–2",
+    "pages": "21–24"
+  },
+  {
+    "examId": "2021-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Problème 2, Partie 3 — Fonctions Python avec dictionnaire",
+    "verified": true,
+    "part": "Problème 2, partie 3",
+    "pages": "25–28"
+  },
+  {
+    "examId": "2022-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Partie I — Moteur de recherche TF-IDF en Python",
+    "verified": true,
+    "part": "Partie I (moteur TF-IDF)",
+    "pages": "2–7"
+  },
+  {
+    "examId": "2022-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Partie II — Classe SearchEngine",
+    "verified": true,
+    "part": "Partie II (classe SearchEngine)",
+    "pages": "14–15"
+  },
+  {
+    "examId": "2022-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Partie III — Algèbre relationnelle, SQL, sqlite3",
+    "verified": true,
+    "part": "Partie III (bases de données)",
+    "pages": "8–19"
+  },
+  {
+    "examId": "2023-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Partie I — Programmation orientée objet (Q1–Q21)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2023-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Partie II — Programmation procédurale (Q22–Q25)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2023-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Partie III — Base de données relationnelle (Q26–Q36)",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2020-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2021-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique",
+    "verified": true,
+    "part": "Partie A",
+    "pages": "35–37"
+  },
+  {
+    "examId": "2021-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables",
+    "verified": true,
+    "part": "Partie B",
+    "pages": "38–46"
+  },
+  {
+    "examId": "2021-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique",
+    "verified": true,
+    "part": "Partie C",
+    "pages": "47–53"
+  },
+  {
+    "examId": "2022-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique",
+    "verified": true,
+    "part": "Partie A",
+    "pages": "34"
+  },
+  {
+    "examId": "2022-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables",
+    "verified": true,
+    "part": "Partie B",
+    "pages": "35–41"
+  },
+  {
+    "examId": "2022-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique",
+    "verified": true,
+    "part": "Partie C",
+    "pages": "42–49"
+  },
+  {
+    "examId": "2023-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2023-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie A — Mécanique des solides indéformables",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2023-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie B — Automatique",
+    "verified": true,
+    "part": null,
+    "pages": null
+  },
+  {
+    "examId": "2015-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, A (I–III) — Onde EM sur conducteur parfait, pression de radiation, conducteur réel (Drude), effet de peau",
+    "verified": true,
+    "part": "Problème 1, A (I–III)",
+    "pages": "1–4"
+  },
+  {
+    "examId": "2015-physique",
+    "chapterId": "phy-electromagnetisme",
+    "questionReferences": "Problème 1, III–IV — Équations de Maxwell dans un métal, permittivité, pulsation plasma",
+    "verified": true,
+    "part": "Problème 1, III–IV",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2015-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Problème 1, C — Superposition de deux ondes (chemin direct / réfléchi), interférences, contraste",
+    "verified": true,
+    "part": "Problème 1, C",
+    "pages": "6"
+  },
+  {
+    "examId": "2015-physique",
+    "chapterId": "phy-ondes-mecaniques",
+    "questionReferences": "Problème 2 — Chaîne d'atomes couplés, relation de dispersion, vitesses de phase et de groupe",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "6–8"
+  },
+  {
+    "examId": "2015-physique",
+    "chapterId": "phy-acoustique",
+    "questionReferences": "Problème 2, VI-48–53 — Onde acoustique longitudinale dans un métal, impédance acoustique",
+    "verified": true,
+    "part": "Problème 2, VI-48–53",
+    "pages": "7–8"
+  },
+  {
+    "examId": "2016-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, B–D — Rayonnement dipolaire, diffusion Rayleigh, champ EM d'un faisceau laser",
+    "verified": true,
+    "part": "Problème 1, B–D",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2016-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Problème 1, E–F — Superposition de deux ondes, franges d'interférence, vélocimétrie laser",
+    "verified": true,
+    "part": "Problème 1, E–F",
+    "pages": "3–5"
+  },
+  {
+    "examId": "2016-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Problème 2 — Navier-Stokes, Bernoulli, Venturi, écoulement de Poiseuille",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2017-physique",
+    "chapterId": "phy-ondes-mecaniques",
+    "questionReferences": "Problème 1, A — Corde vibrante, équation de d'Alembert, amortissement, ondes stationnaires",
+    "verified": true,
+    "part": "Problème 1, A",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2017-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, B (Q10–11, Q14) — Onde EM dans un conducteur, épaisseur de peau, cavité résonante",
+    "verified": true,
+    "part": "Problème 1, B (Q10–11, Q14)",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2017-physique",
+    "chapterId": "phy-laser",
+    "questionReferences": "Problème 1, B (Q12–15) — Laser He-Ne, émission stimulée, milieu amplificateur, gain",
+    "verified": true,
+    "part": "Problème 1, B (Q12–15)",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2017-physique",
+    "chapterId": "phy-quantique",
+    "questionReferences": "Problème 1, C — Fonction d'onde, équation de Schrödinger, puits infini",
+    "verified": true,
+    "part": "Problème 1, C",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2017-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Problème 2 — Phénomènes de transport : lois de Fick et Fourier, diffusion thermique",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2018-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, C — Réflexion d'une onde plane sur un conducteur, épaisseur de peau, Poynting",
+    "verified": true,
+    "part": "Problème 1, C",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2018-physique",
+    "chapterId": "phy-electromagnetisme",
+    "questionReferences": "Problème 1, C (Q11–14) — Équations de Maxwell dans un conducteur, ARQS, courant de déplacement",
+    "verified": true,
+    "part": "Problème 1, C (Q11–14)",
+    "pages": "3"
+  },
+  {
+    "examId": "2018-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Problème 1, B et D — Corps noir (loi de Wien), gaz de photons, détente isentropique de l'univers",
+    "verified": true,
+    "part": "Problème 1, B et D",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2018-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Problème 1, F–G — Réseau de fentes, interféromètre de Michelson, cohérence temporelle",
+    "verified": true,
+    "part": "Problème 1, F–G",
+    "pages": "4–6"
+  },
+  {
+    "examId": "2018-physique",
+    "chapterId": "phy-quantique",
+    "questionReferences": "Problème 2 — Dualité onde-corpuscule, Schrödinger, effet tunnel, microscope STM",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "7–8"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Problème 1, I et III — Onde plane dans un milieu transparent, réflexion/transmission à une interface, Poynting",
+    "verified": true,
+    "part": "Problème 1, I et III",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-polarisation",
+    "questionReferences": "Problème 1, II — Polarisation elliptique, rectiligne, circulaire ; polariseur, loi de Malus",
+    "verified": true,
+    "part": "Problème 1, II",
+    "pages": "2"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Problème 1, IV — Couche antireflet, interférences entre ondes réfléchies",
+    "verified": true,
+    "part": "Problème 1, IV",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-laser",
+    "questionReferences": "Problème 1, V–VI — Faisceau gaussien, cavité laser, émission induite, inversion de population",
+    "verified": true,
+    "part": "Problème 1, V–VI",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Problème 2, I–II — Bernoulli, tube de Pitot, écoulement dans une tuyère (Mach)",
+    "verified": true,
+    "part": "Problème 2, I–II",
+    "pages": "6–7"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-acoustique",
+    "questionReferences": "Problème 2, III — Ondes acoustiques dans un tuyau, approximation acoustique, modes propres",
+    "verified": true,
+    "part": "Problème 2, III",
+    "pages": "7"
+  },
+  {
+    "examId": "2019-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Problème 2, IV — Couplage thermoélectrique, diffusion thermique (Fourier), loi de Fick",
+    "verified": true,
+    "part": "Problème 2, IV",
+    "pages": "8"
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Partie I, Problème I — Cristallographie de l'argent (CFC), rayon métallique, solution solide Ag-Pd",
+    "verified": true,
+    "part": "Partie I, Problème I",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Partie I, Problème II — Diagramme binaire solide-liquide Ag-Pd (fuseau), règle des moments",
+    "verified": true,
+    "part": "Partie I, Problème II",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Partie I, Problème II (Q4) — Potentiel chimique de l'argent dans une solution liquide idéale",
+    "verified": true,
+    "part": "Partie I, Problème II (Q4)",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-ellingham",
+    "questionReferences": "Partie I, Problème III — Diagramme d'Ellingham PdO/Pd et Ag2O/Ag, réduction de Ag2O",
+    "verified": true,
+    "part": "Partie I, Problème III",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Partie I, Problème IV — Structure électronique du cuivre et du palladium, diagramme E-pH du palladium",
+    "verified": true,
+    "part": "Partie I, Problème IV",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Partie II, B — Configuration absolue, représentations de Cram, Newman et Fischer",
+    "verified": true,
+    "part": "Partie II, B",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Partie II, B-2–B-3 — Substitution nucléophile SN2 sur le 2-bromobutane",
+    "verified": true,
+    "part": "Partie II, B-2–B-3",
+    "pages": null
+  },
+  {
+    "examId": "2015-chimie",
+    "chapterId": "chi-org-carbonyles",
+    "questionReferences": "Partie II, A, C et D — Carbanions d'aldéhydes, aldolisation, crotonisation, synthèse du 2-méthylnaphtalène",
+    "verified": true,
+    "part": "Partie II, A, C et D",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Partie I, Problème I — Cristallographie du carbone : diamant (CFC) et graphite (hexagonal), compacité",
+    "verified": true,
+    "part": "Partie I, Problème I",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-redox",
+    "questionReferences": "Partie I, Problème II — Configuration électronique du carbone, degrés d'oxydation, pile à propane",
+    "verified": true,
+    "part": "Partie I, Problème II",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Partie I, Problème III — Équilibre liquide-vapeur du propane pur, potentiels chimiques",
+    "verified": true,
+    "part": "Partie I, Problème III",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-binaires-lv",
+    "questionReferences": "Partie I, Problème IV — Binaire liquide-vapeur propane-butane (GPL-C), distillation fractionnée",
+    "verified": true,
+    "part": "Partie I, Problème IV",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Partie II, Problème I — Pouvoir rotatoire, énantiomérie, configuration absolue",
+    "verified": true,
+    "part": "Partie II, Problème I",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-org-alcools",
+    "questionReferences": "Partie II, Problème I — Tosylation d'un alcool, SN2 avec inversion, déshydratation (E1)",
+    "verified": true,
+    "part": "Partie II, Problème I",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Partie II, Problème II — Addition électrophile sur alcènes, stabilité des carbocations, mésomérie",
+    "verified": true,
+    "part": "Partie II, Problème II",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-org-aromatiques",
+    "questionReferences": "Partie II, 2ème partie — Synthèse à partir du phénol, SE aromatique (Friedel-Crafts / formylation)",
+    "verified": true,
+    "part": "Partie II, 2ème partie",
+    "pages": null
+  },
+  {
+    "examId": "2016-chimie",
+    "chapterId": "chi-org-carbonyles",
+    "questionReferences": "Partie II, 2ème partie — Réaction de Cannizzaro, organomagnésien sur chlorure d'acyle",
+    "verified": true,
+    "part": "Partie II, 2ème partie",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Partie I, I — Tableau périodique (Li, Br), structure électronique, cohésion des cristaux",
+    "verified": true,
+    "part": "Partie I, I",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Partie I, II — Cristallographie du lithium (cubique centré), rayon atomique, diffraction X",
+    "verified": true,
+    "part": "Partie I, II",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Partie I, III — Binaire solide-liquide LiBr-DyBr3, courbe d'analyse thermique, purification",
+    "verified": true,
+    "part": "Partie I, III",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Partie I, IV — Précipitation de Dy(OH)3, tracé du diagramme E-pH du dysprosium",
+    "verified": true,
+    "part": "Partie I, IV",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-org-amines",
+    "questionReferences": "Partie II, Problème 1 — Basicité comparée d'amines, sel de diazonium, nitrile",
+    "verified": true,
+    "part": "Partie II, Problème 1",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-org-organomag",
+    "questionReferences": "Partie II, Problème 1 (Q4) — Organomagnésien sur nitrile, réduction par LiAlH4",
+    "verified": true,
+    "part": "Partie II, Problème 1 (Q4)",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Partie II, Problème 2 — Chiralité de l'α-terpinéol, représentation de Cram, configuration absolue",
+    "verified": true,
+    "part": "Partie II, Problème 2",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-org-alcools",
+    "questionReferences": "Partie II, Problème 2 — Déshydratation acide de l'α-terpinéol, mécanisme E1",
+    "verified": true,
+    "part": "Partie II, Problème 2",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-org-spectro",
+    "questionReferences": "Partie II, Problème 2 (Q4) — Identification par spectroscopie IR et RMN du proton",
+    "verified": true,
+    "part": "Partie II, Problème 2 (Q4)",
+    "pages": null
+  },
+  {
+    "examId": "2017-chimie",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Partie II, Problème 3 — Réaction de Diels-Alder, addition de HBr",
+    "verified": true,
+    "part": "Partie II, Problème 3",
+    "pages": null
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Chimie organique, Problème 1 — Newman, Cram, Fischer, configurations absolues, conformère le plus stable",
+    "verified": true,
+    "part": "Chimie organique, Problème 1",
+    "pages": "29–30"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-org-aromatiques",
+    "questionReferences": "Chimie organique, Problème 2 — Synthèse de l'épinéphrine à partir du benzène : nitration, phénol",
+    "verified": true,
+    "part": "Chimie organique, Problème 2",
+    "pages": "30–33"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-org-amines",
+    "questionReferences": "Chimie organique, Problème 2 — Réduction en aniline, sel de diazonium",
+    "verified": true,
+    "part": "Chimie organique, Problème 2",
+    "pages": "30"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-org-carbonyles",
+    "questionReferences": "Chimie organique, Problème 3 — Cétoesters, condensation intramoléculaire, réduction par LiAlH4",
+    "verified": true,
+    "part": "Chimie organique, Problème 3",
+    "pages": "34–38"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Chimie organique, Problème 3 (Q6–7) — Addition de HBr, élimination E2 par tBuOK, stéréochimie",
+    "verified": true,
+    "part": "Chimie organique, Problème 3 (Q6–7)",
+    "pages": "36–38"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-org-acides",
+    "questionReferences": "Chimie organique, Problème 3 (Q7) — Oxydation par KMnO4, estérification, condensation de Claisen (Dieckmann)",
+    "verified": true,
+    "part": "Chimie organique, Problème 3 (Q7)",
+    "pages": "38"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Chimie inorganique, Cristallographie — Maille de CsSnBr3, coordonnées réduites, plan (211), masse volumique",
+    "verified": true,
+    "part": "Chimie inorganique, Cristallographie",
+    "pages": "17–18"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Chimie inorganique, Équilibre L-V de l'étain pur — Potentiels chimiques, relation de Clapeyron, pression de vapeur saturante",
+    "verified": true,
+    "part": "Chimie inorganique, Équilibre L-V de l'étain pur",
+    "pages": "19–20"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Chimie inorganique, Diagramme solide-liquide — Binaire Pt-Sn, composés définis, eutectique, péritectique, analyse thermique",
+    "verified": true,
+    "part": "Chimie inorganique, Diagramme solide-liquide",
+    "pages": "21–22"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Chimie inorganique, Atomistique — Configuration électronique de Sn, Lewis et VSEPR de SnO3²⁻",
+    "verified": true,
+    "part": "Chimie inorganique, Atomistique",
+    "pages": "23"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Chimie inorganique, II — Diagramme E-pH de l'étain, corrosion, domaine de l'eau",
+    "verified": true,
+    "part": "Chimie inorganique, II",
+    "pages": "24–25"
+  },
+  {
+    "examId": "2018-chimie",
+    "chapterId": "chi-intensite-potentiel",
+    "questionReferences": "Chimie inorganique, III — Courbes i-E, surtension, non-attaque de l'étain à pH 1",
+    "verified": true,
+    "part": "Chimie inorganique, III",
+    "pages": "26"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Chimie inorganique, Système Pb-Te — Binaire solide-liquide Pb-Te, composé défini PbTe, eutectique, analyse thermique",
+    "verified": true,
+    "part": "Chimie inorganique, Système Pb-Te",
+    "pages": "3–5"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Chimie inorganique, Cristallographie — Maille cubique de PbTe, coordinence, masse volumique, diffraction X",
+    "verified": true,
+    "part": "Chimie inorganique, Cristallographie",
+    "pages": "4"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Chimie inorganique, Équilibres solide-liquide — Potentiels chimiques du tellure, entropie de fusion",
+    "verified": true,
+    "part": "Chimie inorganique, Équilibres solide-liquide",
+    "pages": "6"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Chimie inorganique, Diagramme de Pourbaix — Diagramme E-pH simplifié du tellure, frontières et couples redox",
+    "verified": true,
+    "part": "Chimie inorganique, Diagramme de Pourbaix",
+    "pages": "6–8"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-intensite-potentiel",
+    "questionReferences": "Chimie inorganique, Courbes i-E — Courbe intensité-potentiel du couple HTeO2+/Te, paliers, surtensions",
+    "verified": true,
+    "part": "Chimie inorganique, Courbes i-E",
+    "pages": "9–11"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-org-spectro",
+    "questionReferences": "Chimie organique, Problème 1 — Détermination d'une structure par IR et RMN du proton",
+    "verified": true,
+    "part": "Chimie organique, Problème 1",
+    "pages": "13–15"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Chimie organique, Problème 2 (Q1–5) — Conformations du cyclohexane, chiralité, Newman, configurations absolues",
+    "verified": true,
+    "part": "Chimie organique, Problème 2 (Q1–5)",
+    "pages": "15–16"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Chimie organique, Problème 2 (Q6) — Élimination E2 (Zaytsev) et substitution SN2 sur un bromocyclohexane",
+    "verified": true,
+    "part": "Chimie organique, Problème 2 (Q6)",
+    "pages": "17–18"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-org-alcynes",
+    "questionReferences": "Chimie organique, Problème 3 — But-1-yne, alcynure, hydrogénation de Lindlar, isomérie Z/E",
+    "verified": true,
+    "part": "Chimie organique, Problème 3",
+    "pages": "18–20"
+  },
+  {
+    "examId": "2019-chimie",
+    "chapterId": "chi-org-acides",
+    "questionReferences": "Chimie organique, Problème 3 (Q4–5) — Ozonolyse, estérification par CH2N2, condensation de Claisen (cétoester)",
+    "verified": true,
+    "part": "Chimie organique, Problème 3 (Q4–5)",
+    "pages": "20–21"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Partie I — Fonction définie par une intégrale à paramètre, classe C¹ et C²",
+    "verified": true,
+    "part": "Partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-equa-diff",
+    "questionReferences": "Partie I (Q2f) et Partie III (Q5) — Problème aux limites y'' = −f, y'' + λy = 0",
+    "verified": true,
+    "part": "Partie I (Q2f) et Partie III (Q5)",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-evn",
+    "questionReferences": "Partie I et II — Norme uniforme, norme associée au produit scalaire, comparaison des normes",
+    "verified": true,
+    "part": "Partie I et II",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Partie II — Produit scalaire intégral, famille orthonormale (sk)",
+    "verified": true,
+    "part": "Partie II",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Partie III — Endomorphismes Δ et σ, valeurs propres et sous-espaces propres",
+    "verified": true,
+    "part": "Partie III",
+    "pages": "3"
+  },
+  {
+    "examId": "2015-mathematiques",
+    "chapterId": "math-series-fonctions",
+    "questionReferences": "Partie IV — Convergence uniforme d'une série de fonctions, calcul de Σ 1/n² et Σ 1/n⁴",
+    "verified": true,
+    "part": "Partie IV",
+    "pages": "4"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Exercice — Puissances de matrices, diagonalisabilité, trigonalisation, convergence de (M^p)",
+    "verified": true,
+    "part": "Exercice",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-series-entieres",
+    "questionReferences": "Problème, Partie I — Développement en série entière, polynômes d'Hermite",
+    "verified": true,
+    "part": "Problème, Partie I",
+    "pages": "2"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème, Partie II — Intégrabilité sur ℝ, intégration par parties généralisée",
+    "verified": true,
+    "part": "Problème, Partie II",
+    "pages": "3"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème, Partie II (Q4–6) — Produit scalaire sur l'espace des fonctions de carré intégrable, famille orthonormale",
+    "verified": true,
+    "part": "Problème, Partie II (Q4–6)",
+    "pages": "3"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème, Partie III — Transformée de Fourier d'une gaussienne, dérivation sous l'intégrale",
+    "verified": true,
+    "part": "Problème, Partie III",
+    "pages": "4"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-equa-diff",
+    "questionReferences": "Problème, Partie III (Q2) — Équation différentielle y' + xy = 0",
+    "verified": true,
+    "part": "Problème, Partie III (Q2)",
+    "pages": "4"
+  },
+  {
+    "examId": "2016-mathematiques",
+    "chapterId": "math-series-fonctions",
+    "questionReferences": "Problème, Partie IV — Convergence normale, séries de Fourier, formule sommatoire de Poisson",
+    "verified": true,
+    "part": "Problème, Partie IV",
+    "pages": "4"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème 1, Partie I — Intégrale de Gauss, intégrales de Wallis, intégrabilité",
+    "verified": true,
+    "part": "Problème 1, Partie I",
+    "pages": "1"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème 1, Partie II — Produit scalaire sur ℝ[X], distance à un sous-espace",
+    "verified": true,
+    "part": "Problème 1, Partie II",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-calcul-diff",
+    "questionReferences": "Problème 1, Partie II (Q3) — Point critique et minimum d'une fonction de deux variables",
+    "verified": true,
+    "part": "Problème 1, Partie II (Q3)",
+    "pages": "2"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème 1, Partie III — Intégrales à paramètre, classe C², F(x) = (π/2)e^(−|x|)",
+    "verified": true,
+    "part": "Problème 1, Partie III",
+    "pages": "2"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-equa-diff",
+    "questionReferences": "Problème 1, Partie III (Q4–5) — Équation y'' − y = second membre",
+    "verified": true,
+    "part": "Problème 1, Partie III (Q4–5)",
+    "pages": "2"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-probas",
+    "questionReferences": "Problème 1, Partie V — Marche aléatoire, espérance et variance, variables indépendantes",
+    "verified": true,
+    "part": "Problème 1, Partie V",
+    "pages": "3"
+  },
+  {
+    "examId": "2018-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème 2 — Isométries, SO(3), symétries orthogonales, réduction des rotations",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "4"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème 1, Partie I — Intégrabilité, calcul de Σ 1/(2n+1)² par une intégrale",
+    "verified": true,
+    "part": "Problème 1, Partie I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème 1, Partie II — Intégrale à paramètre F, dérivation, F(1) = π²/8",
+    "verified": true,
+    "part": "Problème 1, Partie II",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-probas",
+    "questionReferences": "Problème 1, Partie III — Loi d'un couple, espérance, existence de la variance",
+    "verified": true,
+    "part": "Problème 1, Partie III",
+    "pages": "3–5"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-series-fonctions",
+    "questionReferences": "Problème 1, Partie III (Q6) — Convergence normale d'une série de fonctions, limite en +∞",
+    "verified": true,
+    "part": "Problème 1, Partie III (Q6)",
+    "pages": "4"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème 2, Parties I–II — SO2(ℝ), inégalité de Hadamard, famille orthonormale",
+    "verified": true,
+    "part": "Problème 2, Parties I–II",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2019-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème 2, Parties III–IV — Théorème spectral, racines cubiques de matrices symétriques",
+    "verified": true,
+    "part": "Problème 2, Parties III–IV",
+    "pages": "7–10"
+  },
+  {
+    "examId": "2015-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Problème 1 (Maple) — Produit de Kronecker, équation de Sylvester ramenée à un système linéaire",
+    "verified": true,
+    "part": "Problème 1 (Maple)",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2015-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Problème 2 (Algorithmique) — Algorithmes de recherche sur tableaux : max, min, 2e plus grand, tournoi",
+    "verified": true,
+    "part": "Problème 2 (Algorithmique)",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2016-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Exercices 1–2 (Maple) — Résolution d'une équation différentielle (métronome), matrices projecteur, nilpotente, circulante",
+    "verified": true,
+    "part": "Exercices 1–2 (Maple)",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2016-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Problème (Algorithmique) — Permutations représentées par tableaux : identité, transposition, composition, réciproque",
+    "verified": true,
+    "part": "Problème (Algorithmique)",
+    "pages": "3–5"
+  },
+  {
+    "examId": "2017-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Exercice 1 — Classe PolynomeCreux (dictionnaires), méthodes spéciales __add__, __mul__, __call__",
+    "verified": true,
+    "part": "Exercice 1",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2017-informatique",
+    "chapterId": "info-procedural",
+    "questionReferences": "Exercice 1 — Dictionnaires, contrôle de saisie avec assert/try",
+    "verified": true,
+    "part": "Exercice 1",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2017-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Exercice 2 — Création de table avec sqlite3, requêtes SQL, algèbre relationnelle",
+    "verified": true,
+    "part": "Exercice 2",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2017-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Exercice 3 — Approximation polynomiale par moindres carrés",
+    "verified": true,
+    "part": "Exercice 3",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2018-informatique",
+    "chapterId": "info-images",
+    "questionReferences": "Problème 1, Partie I — Image en niveaux de gris (numpy), moyennes des voisinages, histogramme, seuillage",
+    "verified": true,
+    "part": "Problème 1, Partie I",
+    "pages": "1–3"
+  },
+  {
+    "examId": "2018-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Problème 1, Partie II — Classes Pixel et Region, méthodes __len__, __call__, __contains__, binarisation",
+    "verified": true,
+    "part": "Problème 1, Partie II",
+    "pages": "3–5"
+  },
+  {
+    "examId": "2018-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Problème 2 — Base BDDImage avec sqlite3, requêtes SQL, algèbre relationnelle",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2019-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Problème 1, Parties 1–2 — Classes Node, DecisionNode (héritage), DecisionForest, méthodes récursives",
+    "verified": true,
+    "part": "Problème 1, Parties 1–2",
+    "pages": "2–5"
+  },
+  {
+    "examId": "2019-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Problème 1, Partie 3 — Apprentissage d'un arbre de décision sur une matrice numpy, impureté, seuils",
+    "verified": true,
+    "part": "Problème 1, Partie 3",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2019-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Problème 2 — Base classifieurs.db : algèbre relationnelle, SQL, sqlite3 et lecture de fichier",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "7–8"
+  },
+  {
+    "examId": "2015-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Technologie de conception — Analyse fonctionnelle, dessin technique, assemblages et éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Technologie de conception",
+    "pages": null
+  },
+  {
+    "examId": "2015-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique du mécanisme (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2015-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Commande séquentielle et asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2016-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Technologie de conception — Analyse fonctionnelle, dessin technique, assemblages et éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Technologie de conception",
+    "pages": null
+  },
+  {
+    "examId": "2016-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique du mécanisme (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2016-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Commande séquentielle et asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2017-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Technologie de conception — Analyse fonctionnelle, dessin technique, assemblages et éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Technologie de conception",
+    "pages": null
+  },
+  {
+    "examId": "2017-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique du mécanisme (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2017-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Commande séquentielle et asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2018-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Technologie de conception — Analyse fonctionnelle, dessin technique, assemblages et éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Technologie de conception",
+    "pages": null
+  },
+  {
+    "examId": "2018-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique du mécanisme (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2018-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Commande séquentielle et asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2019-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Technologie de conception — Analyse fonctionnelle, dessin technique, assemblages et éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Technologie de conception",
+    "pages": null
+  },
+  {
+    "examId": "2019-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique du mécanisme (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2019-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Commande séquentielle et asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Problème 1 (Q1–Q5) — Liaison hydrogène, nombres d'oxydation, géométrie VSEPR, moments dipolaires",
+    "verified": true,
+    "part": "Problème 1 (Q1–Q5)",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Problème 1 (Q6–Q7) — Pression de vapeur saturante des corps purs liquides",
+    "verified": true,
+    "part": "Problème 1 (Q6–Q7)",
+    "pages": "4"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-binaires-lv",
+    "questionReferences": "Problème 2 — Courbes de bulle, écarts à l'idéalité, binaires liquide-vapeur",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème 3 — Hydrure d'uranium cubique, plans réticulaires, masse volumique",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "8–9"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Problème 4 — Diagramme E-pH de l'uranium, frontières, dismutation",
+    "verified": true,
+    "part": "Problème 4",
+    "pages": "10–15"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-acidobase",
+    "questionReferences": "Problème 4 (Q30–Q42) — Constante d'équilibre, pKa, diagramme de distribution",
+    "verified": true,
+    "part": "Problème 4 (Q30–Q42)",
+    "pages": "10–14"
+  },
+  {
+    "examId": "2024-chimie-inorganique",
+    "chapterId": "chi-redox",
+    "questionReferences": "Problème 4 (Q44–Q46) — Dismutation, lame d'uranium en solution, réactions prévues",
+    "verified": true,
+    "part": "Problème 4 (Q44–Q46)",
+    "pages": "15"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-org-spectro",
+    "questionReferences": "Problème I — Détermination d'une structure par RMN du proton et IR",
+    "verified": true,
+    "part": "Problème I",
+    "pages": "3"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Problème II — Chiralité, configurations absolues, Newman et Fischer",
+    "verified": true,
+    "part": "Problème II",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-org-alcools",
+    "questionReferences": "Problème III — Chimie du menthol : tosylation, déshydratation acide (E1)",
+    "verified": true,
+    "part": "Problème III",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Problème III, 1re partie — Substitution par NaCN sur un tosylate",
+    "verified": true,
+    "part": "Problème III, 1re partie",
+    "pages": "5"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-org-acides",
+    "questionReferences": "Problème III, 1re partie — Synthèse d'un amide N-alkylé (nitrile, chlorure d'acyle)",
+    "verified": true,
+    "part": "Problème III, 1re partie",
+    "pages": "5"
+  },
+  {
+    "examId": "2024-chimie-organique",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Problème III, 2e partie — Alcènes cycliques, hydroboration, ozonolyse",
+    "verified": true,
+    "part": "Problème III, 2e partie",
+    "pages": "4"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème I — Valeurs propres, convergence de la suite (A^n)",
+    "verified": true,
+    "part": "Problème I",
+    "pages": "1–2"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-evn",
+    "questionReferences": "Problème I, Partie C — Norme matricielle sous-multiplicative",
+    "verified": true,
+    "part": "Problème I, Partie C",
+    "pages": "1"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-series-numeriques",
+    "questionReferences": "Problème II, Partie A — Constante d'Euler γ, convergence de séries",
+    "verified": true,
+    "part": "Problème II, Partie A",
+    "pages": "3"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Problème II, Partie A — Intégrabilité de ln(t)e^(−t)",
+    "verified": true,
+    "part": "Problème II, Partie A",
+    "pages": "3"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème II, Partie B — Fonction définie par une intégrale, classe C∞",
+    "verified": true,
+    "part": "Problème II, Partie B",
+    "pages": "3"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-equa-diff",
+    "questionReferences": "Problème II, Parties B–C — Équation xy'' + y' + xy = 1",
+    "verified": true,
+    "part": "Problème II, Parties B–C",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2024-mathematiques",
+    "chapterId": "math-series-entieres",
+    "questionReferences": "Problème II, Partie C — Solutions développables en série entière",
+    "verified": true,
+    "part": "Problème II, Partie C",
+    "pages": "4"
+  },
+  {
+    "examId": "2024-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Partie I — Système de recommandation IBCF : classes, héritage, stratégies",
+    "verified": true,
+    "part": "Partie I",
+    "pages": "2–9"
+  },
+  {
+    "examId": "2024-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Partie I — Matrices de similarité avec numpy (cosinus, Jaccard, euclidienne)",
+    "verified": true,
+    "part": "Partie I",
+    "pages": "2–9"
+  },
+  {
+    "examId": "2024-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Partie II — Base cloud computing : SQL et algèbre relationnelle",
+    "verified": true,
+    "part": "Partie II",
+    "pages": "10–16"
+  },
+  {
+    "examId": "2025-chimie-inorganique",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Problème 1 — Ruthénium : configuration électronique, position dans le tableau, Lewis",
+    "verified": true,
+    "part": "Problème 1",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2025-chimie-inorganique",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Problème 2, A — Structure hexagonale compacte du ruthénium, alliages Ru-Re",
+    "verified": true,
+    "part": "Problème 2, A",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2025-chimie-inorganique",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Problème 2, B–C — Binaire solide-liquide Ru-Re, compositions des phases",
+    "verified": true,
+    "part": "Problème 2, B–C",
+    "pages": "6–9"
+  },
+  {
+    "examId": "2025-chimie-inorganique",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Problème 2, C (Q24–Q27) — Égalité des potentiels chimiques, loi de Van't Hoff",
+    "verified": true,
+    "part": "Problème 2, C (Q24–Q27)",
+    "pages": "7–8"
+  },
+  {
+    "examId": "2025-chimie-inorganique",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Problème 3 — Diagramme E-pH du ruthénium en milieu chlorure, dismutation",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "9–11"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Problèmes 1–2 — Pouvoir rotatoire, Cram, Newman, conformations chaise",
+    "verified": true,
+    "part": "Problèmes 1–2",
+    "pages": "2–6"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Problème 2 — Mécanismes de substitution et d'élimination sur un cyclohexane",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "6–7"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Problème 2 — Produits d'élimination, alcènes I et J",
+    "verified": true,
+    "part": "Problème 2",
+    "pages": "7"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-org-aromatiques",
+    "questionReferences": "Problème 3 — Synthèse de l'ibuprofène, substance aromatique",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "8–9"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-org-organomag",
+    "questionReferences": "Problème 3 — Étapes en milieu anhydre",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "9–10"
+  },
+  {
+    "examId": "2025-chimie-organique",
+    "chapterId": "chi-org-acides",
+    "questionReferences": "Problème 3 — Acide carboxylique (ibuprofène) et dérivés",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "10–13"
+  },
+  {
+    "examId": "2025-mathematiques",
+    "chapterId": "math-series-numeriques",
+    "questionReferences": "Problème 1, Partie I — Somme d'une série à partir de Σ 1/n²",
+    "verified": true,
+    "part": "Problème 1, Partie I",
+    "pages": "1"
+  },
+  {
+    "examId": "2025-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Problème 1, Partie II — Étude locale de F(x) = ∫ t^(−x) h(t) dt",
+    "verified": true,
+    "part": "Problème 1, Partie II",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2025-mathematiques",
+    "chapterId": "math-series-entieres",
+    "questionReferences": "Problème 1, Partie III — Développement en série de F",
+    "verified": true,
+    "part": "Problème 1, Partie III",
+    "pages": "3"
+  },
+  {
+    "examId": "2025-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Problème 2, Partie I — Produit scalaire discret sur les polynômes",
+    "verified": true,
+    "part": "Problème 2, Partie I",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2025-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Problème 2, Parties II–III — Interpolation de Lagrange, endomorphisme f, polynômes orthogonaux",
+    "verified": true,
+    "part": "Problème 2, Parties II–III",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-ondes-em",
+    "questionReferences": "Première partie (QCM) — Onde plane progressive, champ magnétique associé",
+    "verified": true,
+    "part": "Première partie (QCM)",
+    "pages": "2–3"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-electromagnetisme",
+    "questionReferences": "Première partie (QCM) — Cylindre chargé, filtre de Wien",
+    "verified": true,
+    "part": "Première partie (QCM)",
+    "pages": "3"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "Deuxième partie — Phénomènes de transport : lois de Fick et Fourier, résistance thermique",
+    "verified": true,
+    "part": "Deuxième partie",
+    "pages": "4–9"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "Deuxième partie (Q22–Q26) — Écoulement visqueux, équation de diffusion de la quantité de mouvement",
+    "verified": true,
+    "part": "Deuxième partie (Q22–Q26)",
+    "pages": "10–11"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Troisième partie — Interféromètre de Michelson : lame d'air, coin d'air, doublet",
+    "verified": true,
+    "part": "Troisième partie",
+    "pages": "12–19"
+  },
+  {
+    "examId": "2025-physique",
+    "chapterId": "phy-quantique",
+    "questionReferences": "Quatrième partie — Équation de Schrödinger, puits infini, Heisenberg, énergie du point zéro",
+    "verified": true,
+    "part": "Quatrième partie",
+    "pages": "20–32"
+  },
+  {
+    "examId": "2024-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique — Analyse fonctionnelle, dessin technique, assemblages",
+    "verified": true,
+    "part": "Partie A — Conception mécanique",
+    "pages": null
+  },
+  {
+    "examId": "2024-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2024-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2025-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique — Analyse fonctionnelle, dessin technique, assemblages",
+    "verified": true,
+    "part": "Partie A — Conception mécanique",
+    "pages": null
+  },
+  {
+    "examId": "2025-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2025-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-thermodynamique",
+    "questionReferences": "QCM (Q1–Q3, Q8) — Rendement de Carnot, conduction thermique, diffusion",
+    "verified": true,
+    "part": "QCM (Q1–Q3, Q8)",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-fluides",
+    "questionReferences": "QCM (Q4–Q5) — Relation de Bernoulli, résistance hydraulique (Poiseuille)",
+    "verified": true,
+    "part": "QCM (Q4–Q5)",
+    "pages": "5"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-ondes-mecaniques",
+    "questionReferences": "Première partie — Corde vibrante : équation de d'Alembert, modes propres",
+    "verified": true,
+    "part": "Première partie",
+    "pages": "6–10"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-acoustique",
+    "questionReferences": "Deuxième partie — Cavités acoustiques, célérité du son, impédance acoustique",
+    "verified": true,
+    "part": "Deuxième partie",
+    "pages": "11–16"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-optique-ondulatoire",
+    "questionReferences": "Troisième partie — Cavité Fabry-Pérot : interférences à ondes multiples, finesse",
+    "verified": true,
+    "part": "Troisième partie",
+    "pages": "17–22"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-laser",
+    "questionReferences": "Troisième partie — Cavité laser, modes, cohérence temporelle, effet Doppler",
+    "verified": true,
+    "part": "Troisième partie",
+    "pages": "17–26"
+  },
+  {
+    "examId": "2026-physique",
+    "chapterId": "phy-quantique",
+    "questionReferences": "Quatrième partie — Laser à cascade quantique : puits infini et puits fini, Schrödinger",
+    "verified": true,
+    "part": "Quatrième partie",
+    "pages": "27–38"
+  },
+  {
+    "examId": "2026-chimie-inorganique",
+    "chapterId": "chi-lewis",
+    "questionReferences": "Partie 1, Atomistique — Béryllium : configuration, modèle de Bohr, orbitales moléculaires de Be₂, BeH₂",
+    "verified": true,
+    "part": "Partie 1, Atomistique",
+    "pages": "4–5"
+  },
+  {
+    "examId": "2026-chimie-inorganique",
+    "chapterId": "chi-architecture",
+    "questionReferences": "Partie 1, Cristallographie — Be hexagonal compact, variété β cubique, conditions d'extinction",
+    "verified": true,
+    "part": "Partie 1, Cristallographie",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2026-chimie-inorganique",
+    "chapterId": "chi-binaires-ls",
+    "questionReferences": "Partie 2 — Diagramme binaire solide-liquide BeF₂-RbF, eutexie, règle des moments",
+    "verified": true,
+    "part": "Partie 2",
+    "pages": "7–9"
+  },
+  {
+    "examId": "2026-chimie-inorganique",
+    "chapterId": "chi-pourbaix",
+    "questionReferences": "Partie 3 — Diagramme E-pH du béryllium : corrosion, immunité, passivation",
+    "verified": true,
+    "part": "Partie 3",
+    "pages": "9–12"
+  },
+  {
+    "examId": "2026-chimie-inorganique",
+    "chapterId": "chi-diagramme-etat",
+    "questionReferences": "Partie 4 — Équilibre Be₂C/Be(g), variance, sublimation, pression de vapeur saturante",
+    "verified": true,
+    "part": "Partie 4",
+    "pages": "13–14"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-alcenes",
+    "questionReferences": "Problème 1 — Oxydation par KMnO₄, ozonolyse, époxydation, dihydroxylation",
+    "verified": true,
+    "part": "Problème 1",
+    "pages": "5–6"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-stereo",
+    "questionReferences": "Problèmes 1–2 — Configurations absolues, représentations de Cram, stéréoisomères",
+    "verified": true,
+    "part": "Problèmes 1–2",
+    "pages": "5–7"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-organomag",
+    "questionReferences": "Problème 2 (Q7) — Organomagnésien et CO₂, puis acylation de Friedel-Crafts",
+    "verified": true,
+    "part": "Problème 2 (Q7)",
+    "pages": "6"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-aromatiques",
+    "questionReferences": "Problème 2 (Q7) — Cyclisation intramoléculaire (AlCl₃) en indanone",
+    "verified": true,
+    "part": "Problème 2 (Q7)",
+    "pages": "6"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-amines",
+    "questionReferences": "Problème 2 (Q11–Q13) — Nitrile, réduction en amine, élimination d'Hofmann",
+    "verified": true,
+    "part": "Problème 2 (Q11–Q13)",
+    "pages": "7–8"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-halogenes",
+    "questionReferences": "Problème 3, Partie A — Élimination E2 sur un dérivé bromé, stabilité de l'alcène conjugué",
+    "verified": true,
+    "part": "Problème 3, Partie A",
+    "pages": "9"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-spectro",
+    "questionReferences": "Problème 3 — Identification de composés par RMN du proton",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "9–11"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-carbonyles",
+    "questionReferences": "Problème 3 — Réaction de Cannizzaro, aldolisation, protection par acétal",
+    "verified": true,
+    "part": "Problème 3",
+    "pages": "10–11"
+  },
+  {
+    "examId": "2026-chimie-organique",
+    "chapterId": "chi-org-acides",
+    "questionReferences": "Problème 3, Partie B — Estérification, synthèse malonique, décarboxylation",
+    "verified": true,
+    "part": "Problème 3, Partie B",
+    "pages": "12"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-integration",
+    "questionReferences": "Partie I — Transformée de Laplace : intégrabilité de f(t)e^(−xt), espace E",
+    "verified": true,
+    "part": "Partie I",
+    "pages": "3–8"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-integrales-param",
+    "questionReferences": "Parties I–II — Propriétés de L(f), limites, étude de l'exemple t/(e^t − 1)",
+    "verified": true,
+    "part": "Parties I–II",
+    "pages": "3–10"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-probas",
+    "questionReferences": "Partie III — Transformée de Laplace d'une variable aléatoire, moments, loi binomiale",
+    "verified": true,
+    "part": "Partie III",
+    "pages": "10–14"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-series-entieres",
+    "questionReferences": "Partie III, B — Variables discrètes infinies : Σ e^(tn) P(X = n)",
+    "verified": true,
+    "part": "Partie III, B",
+    "pages": "12–14"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-euclidien",
+    "questionReferences": "Partie IV — Produit scalaire intégral sur Rn[X], polynômes orthogonaux Q_k",
+    "verified": true,
+    "part": "Partie IV",
+    "pages": "15–22"
+  },
+  {
+    "examId": "2026-mathematiques",
+    "chapterId": "math-algebre",
+    "questionReferences": "Partie IV — Endomorphisme Φ, matrice, spectre, sous-espaces propres",
+    "verified": true,
+    "part": "Partie IV",
+    "pages": "15–16"
+  },
+  {
+    "examId": "2026-informatique",
+    "chapterId": "info-poo",
+    "questionReferences": "Partie I — Classes Node, MaritimePort (héritage), TSPProblem, AntAgent, Environment",
+    "verified": true,
+    "part": "Partie I",
+    "pages": "4–25"
+  },
+  {
+    "examId": "2026-informatique",
+    "chapterId": "info-simulation",
+    "questionReferences": "Partie I (Q12–Q24) — Colonies de fourmis : matrices de phéromones numpy, évaporation, heatmap",
+    "verified": true,
+    "part": "Partie I (Q12–Q24)",
+    "pages": "15–25"
+  },
+  {
+    "examId": "2026-informatique",
+    "chapterId": "info-bdd",
+    "questionReferences": "Partie II — Base maritime LogiSea : SQL et algèbre relationnelle",
+    "verified": true,
+    "part": "Partie II",
+    "pages": "26–35"
+  },
+  {
+    "examId": "2026-sta",
+    "chapterId": "sta-conception",
+    "questionReferences": "Partie A — Conception mécanique — Chaîne de transmission, réducteur, liaison encastrement, éléments normalisés",
+    "verified": true,
+    "part": "Partie A — Conception mécanique",
+    "pages": "3–4"
+  },
+  {
+    "examId": "2026-sta",
+    "chapterId": "sta-pfd",
+    "questionReferences": "Partie B — Mécanique des solides indéformables — Cinématique et dynamique (PFD, torseurs)",
+    "verified": true,
+    "part": "Partie B — Mécanique des solides indéformables",
+    "pages": null
+  },
+  {
+    "examId": "2026-sta",
+    "chapterId": "sta-automatique",
+    "questionReferences": "Partie C — Automatique — Asservissement (Laplace, stabilité, correction)",
+    "verified": true,
+    "part": "Partie C — Automatique",
+    "pages": null
+  }
 ]

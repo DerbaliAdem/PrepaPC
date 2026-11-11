@@ -1,13 +1,72 @@
 [
-  { "id": "phy-electromagnetisme", "name": "Électromagnétisme — équations de Maxwell", "subject": "physique", "category": "Électromagnétisme" },
-  { "id": "phy-ondes-em", "name": "Ondes électromagnétiques (vide, conducteurs, cavités)", "subject": "physique", "category": "Électromagnétisme" },
-  { "id": "phy-optique-ondulatoire", "name": "Optique ondulatoire — interférences", "subject": "physique", "category": "Optique" },
-  { "id": "phy-polarisation", "name": "Polarisation de la lumière", "subject": "physique", "category": "Optique" },
-  { "id": "phy-diffusion", "name": "Phénomènes de diffusion (thermique, particulaire)", "subject": "physique", "category": "Phénomènes de transport" },
-  { "id": "phy-fluides", "name": "Mécanique des fluides", "subject": "physique", "category": "Mécanique" },
-  { "id": "phy-mecanique-solide", "name": "Mécanique du solide", "subject": "physique", "category": "Mécanique" },
-  { "id": "phy-ondes-mecaniques", "name": "Ondes mécaniques — cordes vibrantes", "subject": "physique", "category": "Ondes" },
-  { "id": "phy-acoustique", "name": "Ondes acoustiques dans les fluides", "subject": "physique", "category": "Ondes" },
-  { "id": "phy-thermodynamique", "name": "Thermodynamique — machines et changements d'état", "subject": "physique", "category": "Thermodynamique" },
-  { "id": "phy-electronique", "name": "Électronique — oscillateurs", "subject": "physique", "category": "Électronique" }
+  {
+    "id": "phy-fluides",
+    "name": "Mécanique des fluides",
+    "subject": "physique",
+    "category": "I. Mécanique des fluides",
+    "description": "Écoulements, équations d'Euler et de Navier-Stokes, bilans macroscopiques."
+  },
+  {
+    "id": "phy-electromagnetisme",
+    "name": "Équations de Maxwell et régime dépendant du temps",
+    "subject": "physique",
+    "category": "II. Électromagnétisme",
+    "description": "Postulats de l'électromagnétisme, aspects énergétiques, approximation des régimes quasi-stationnaires."
+  },
+  {
+    "id": "phy-ondes-mecaniques",
+    "name": "Ondes mécaniques (corde vibrante, ondes stationnaires)",
+    "subject": "physique",
+    "category": "III. Ondes",
+    "description": "Équation de d'Alembert, modes propres, phénomènes dispersifs."
+  },
+  {
+    "id": "phy-acoustique",
+    "name": "Ondes acoustiques dans les fluides",
+    "subject": "physique",
+    "category": "III. Ondes",
+    "description": "Équations linéarisées, célérité, effet Doppler."
+  },
+  {
+    "id": "phy-ondes-em",
+    "name": "Ondes électromagnétiques (vide, conducteurs, milieux)",
+    "subject": "physique",
+    "category": "III. Ondes",
+    "description": "Propagation dans le vide, les conducteurs et les milieux transparents, énergie, interfaces."
+  },
+  {
+    "id": "phy-polarisation",
+    "name": "Polarisation des ondes électromagnétiques",
+    "subject": "physique",
+    "category": "III. Ondes",
+    "description": "États de polarisation, lames à retard, polarisation rotatoire."
+  },
+  {
+    "id": "phy-optique-ondulatoire",
+    "name": "Interférences lumineuses (trous d'Young, Michelson, lames)",
+    "subject": "physique",
+    "category": "IV. Optique",
+    "description": "Modèle scalaire, superposition d'ondes, interférences par division du front d'onde et d'amplitude."
+  },
+  {
+    "id": "phy-laser",
+    "name": "Introduction à la physique du laser",
+    "subject": "physique",
+    "category": "V. Laser",
+    "description": "Milieu amplificateur, oscillateur, faisceau gaussien; mise en œuvre électronique."
+  },
+  {
+    "id": "phy-quantique",
+    "name": "Approche ondulatoire de la physique quantique",
+    "subject": "physique",
+    "category": "VI. Physique quantique",
+    "description": "Dualité onde-particule, fonction d'onde, confinement quantique, radioactivité."
+  },
+  {
+    "id": "phy-thermodynamique",
+    "name": "Thermodynamique (premier principe, machines, diffusion thermique)",
+    "subject": "physique",
+    "category": "VII. Thermodynamique",
+    "description": "Premier et second principes, systèmes ouverts, machines thermiques, diffusion thermique."
+  }
 ]

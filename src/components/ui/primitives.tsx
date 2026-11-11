@@ -29,7 +29,7 @@ export function ButtonAnchor({ variant = 'secondary', size = 'md', className = '
 export function SubjectTag({ subject }: { subject: Subject }) {
   return (
     <span className="inline-flex items-center gap-1.5 text-sm text-ink">
-      <span aria-hidden className={`size-1.5 rounded-full ${subject === 'physique' ? 'bg-accent' : subject === 'chimie' ? 'bg-ok' : 'bg-faint'}`} />
+      <span aria-hidden className={`size-1.5 rounded-full ${subject === 'physique' ? 'bg-accent' : subject.startsWith('chimie') ? 'bg-ok' : 'bg-faint'}`} />
       {SUBJECT_LABEL[subject]}
     </span>
   );

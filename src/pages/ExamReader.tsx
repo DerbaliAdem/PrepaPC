@@ -1,21 +1,20 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Download, ListTree, NotebookPen } from 'lucide-react';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { ArrowLeft, Download, ListTree } from 'lucide-react';
 import { downloadName, getExam } from '../services/examService';
 import PDFViewer from '../components/exams/PDFViewer';
 import ExamChapters from '../components/exams/ExamChapters';
-import ExamNotes from '../components/exams/ExamNotes';
 import ExamTimer from '../components/exams/ExamTimer';
-import { readNotes } from '../hooks/useNotes';
 import { appearancesForExam } from '../services/chapterService';
 import { ButtonAnchor, ButtonLink, SubjectTag } from '../components/ui/primitives';
 import { SUBJECT_LABEL } from '../types';
 
 export default function ExamReader() {
   const { examId = '' } = useParams();
+  const [search] = useSearchParams();
+  const startPage = Math.max(1, parseInt(search.get('page') ?? '1', 10) || 1);
   const exam = getExam(examId);
   const [showChapters, setShowChapters] = useState(false);
-  const [showNotes, setShowNotes] = useState(() => Boolean(readNotes()[examId]));
 
   useEffect(() => {
     document.title = exam ? `${SUBJECT_LABEL[exam.subject]} ${exam.year} — Prépa PC` : 'Prépa PC';
@@ -64,14 +63,6 @@ export default function ExamReader() {
           >
             <ListTree size={14} /> Chapitres
           </button>}
-          <button
-            type="button"
-            onClick={() => setShowNotes((s) => !s)}
-            aria-pressed={showNotes}
-            className={`inline-flex h-8 items-center gap-1.5 rounded-md border px-2.5 text-sm ${showNotes ? 'border-accent bg-accent-soft text-accent' : 'border-line text-ink hover:bg-sunken'}`}
-          >
-            <NotebookPen size={14} /> Notes
-          </button>
           <ButtonAnchor href={exam.pdfUrl} download={downloadName(exam)} variant="primary" size="sm">
             <Download size={14} /> Télécharger
           </ButtonAnchor>
@@ -82,12 +73,7 @@ export default function ExamReader() {
           <ExamChapters exam={exam} />
         </div>
       )}
-      {showNotes && (
-        <div className="border-b border-line bg-surface px-4 py-4 sm:px-6">
-          <ExamNotes examId={exam.id} />
-        </div>
-      )}
-      <PDFViewer url={exam.pdfUrl} />
+      <PDFViewer key={startPage} url={exam.pdfUrl} initialPage={startPage} />
     </div>
   );
 }

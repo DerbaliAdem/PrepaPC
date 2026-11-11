@@ -1,13 +1,134 @@
 [
-  { "id": "chi-structure", "name": "Structure de la matière — Lewis, VSEPR", "subject": "chimie", "category": "Atomistique" },
-  { "id": "chi-cristallographie", "name": "Cristallographie", "subject": "chimie", "category": "Atomistique" },
-  { "id": "chi-corps-purs", "name": "Corps purs et changements d'état", "subject": "chimie", "category": "Thermodynamique chimique" },
-  { "id": "chi-binaire-lv", "name": "Diagrammes binaires liquide-vapeur", "subject": "chimie", "category": "Thermodynamique chimique" },
-  { "id": "chi-binaire-ls", "name": "Diagrammes binaires solide-liquide", "subject": "chimie", "category": "Thermodynamique chimique" },
-  { "id": "chi-ellingham", "name": "Diagrammes d'Ellingham", "subject": "chimie", "category": "Thermodynamique chimique" },
-  { "id": "chi-solutions", "name": "Équilibres en solution aqueuse", "subject": "chimie", "category": "Solutions aqueuses", "description": "Acido-basicité, complexation, précipitation." },
-  { "id": "chi-redox", "name": "Oxydoréduction — potentiels standard, piles", "subject": "chimie", "category": "Électrochimie" },
-  { "id": "chi-pourbaix", "name": "Diagrammes potentiel-pH (Pourbaix)", "subject": "chimie", "category": "Électrochimie" },
-  { "id": "chi-intensite-potentiel", "name": "Courbes intensité-potentiel", "subject": "chimie", "category": "Électrochimie" },
-  { "id": "chi-organique", "name": "Chimie organique", "subject": "chimie", "category": "Chimie organique" }
+  {
+    "id": "chi-diagramme-etat",
+    "name": "Diagramme d'état : potentiel chimique et corps purs",
+    "subject": "chimie-inorganique",
+    "category": "Inorganique — Diagramme d'état"
+  },
+  {
+    "id": "chi-binaires-lv",
+    "name": "Équilibres liquide-vapeur des binaires",
+    "subject": "chimie-inorganique",
+    "category": "Inorganique — Diagramme d'état"
+  },
+  {
+    "id": "chi-binaires-ls",
+    "name": "Équilibres solide-liquide des binaires (eutectique)",
+    "subject": "chimie-inorganique",
+    "category": "Inorganique — Diagramme d'état"
+  },
+  {
+    "id": "chi-architecture",
+    "name": "Architecture de la matière : cristallographie",
+    "subject": "chimie-inorganique",
+    "category": "Inorganique — Architecture de la matière"
+  },
+  {
+    "id": "chi-stereo",
+    "name": "Stéréochimie : Cram, Newman, Fischer, isomérie",
+    "subject": "chimie-organique",
+    "category": "Organique — Structures"
+  },
+  {
+    "id": "chi-org-spectro",
+    "name": "Spectroscopies IR et RMN du proton",
+    "subject": "chimie-organique",
+    "category": "Organique — Structures"
+  },
+  {
+    "id": "chi-org-halogenes",
+    "name": "Dérivés halogénés (SN1, SN2, E1, E2)",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-alcenes",
+    "name": "Alcènes, diènes et réaction de Diels-Alder",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-alcynes",
+    "name": "Alcynes",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-aromatiques",
+    "name": "Composés aromatiques",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-organomag",
+    "name": "Organomagnésiens",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-amines",
+    "name": "Amines",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-alcools",
+    "name": "Alcools",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-carbonyles",
+    "name": "Dérivés carbonylés : cétones et aldéhydes",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-acides",
+    "name": "Acides carboxyliques et dérivés",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-org-polymeres",
+    "name": "Introduction aux polymères organiques",
+    "subject": "chimie-organique",
+    "category": "Organique — Fonctions simples"
+  },
+  {
+    "id": "chi-lewis",
+    "name": "Schéma de Lewis et géométrie VSEPR",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "chi-acidobase",
+    "name": "Équilibres acido-basiques et constantes d'équilibre",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "chi-redox",
+    "name": "Oxydoréduction : potentiels standard, piles",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "chi-pourbaix",
+    "name": "Diagrammes potentiel-pH (Pourbaix)",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "chi-intensite-potentiel",
+    "name": "Courbes intensité-potentiel",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  },
+  {
+    "id": "chi-ellingham",
+    "name": "Diagrammes d'Ellingham",
+    "subject": "chimie-inorganique",
+    "category": "Hors programme fourni (à vérifier)"
+  }
 ]

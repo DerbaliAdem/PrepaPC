@@ -52,7 +52,7 @@ export default function Settings() {
           </Panel>
         </Section>
 
-        <Section title="Progression et notes">
+        <Section title="Progression">
           <Panel className="divide-y divide-line">
             <Row label="Réinitialiser la progression">
               {confirming ? (
